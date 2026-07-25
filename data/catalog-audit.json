@@ -1,0 +1,6556 @@
+{
+  "generatedAt": "2026-07-25T07:52:59.584Z",
+  "summary": {
+    "categories": 6,
+    "categoryPhotos": 6,
+    "branches": 55,
+    "questions": 336,
+    "questionsWithMeaningfulChoice": 336,
+    "helperQuestions": 12,
+    "products": 442,
+    "productsAudited": 442,
+    "sourceOfferNames": 437,
+    "catalogOfferNames": 437,
+    "varieties": 366,
+    "evidenceChecks": 605,
+    "images": 442,
+    "descriptions": 442,
+    "prices": 442,
+    "branchesWithVerifiedPartialFallbackScenario": 55,
+    "remontantStrawberryVarieties": 3,
+    "ordinaryStrawberryVarietiesExternallyAudited": 9,
+    "strawberryVarietiesExternallyAudited": 12,
+    "muranoTypicalScenarioExact": true,
+    "minimumConfirmedQuestionsPerProduct": 2,
+    "identityUnconfirmedProducts": 24,
+    "unsupportedAnswerOptionsHiddenByUi": 112,
+    "embeddedOnlineSupport": true,
+    "simpleCatalogSearch": true
+  },
+  "rules": [
+    "Каждый вопрос имеет минимум один содержательный ответ, подтверждённый описанием сорта.",
+    "Неподтверждённые ответы не показываются пользователю.",
+    "Каждый идентифицированный товар подтверждает характеристики минимум по двум вопросам своей ветки; позиции с неподтверждённым сортовым именем исключаются из точного подбора.",
+    "Внешние сведения отображаются только вместе со ссылкой на источник."
+  ],
+  "muranoAudit": {
+    "variety": "Клубника Мурано",
+    "exactScenario": [
+      {
+        "criterion": "Почти непрерывно до осени",
+        "matches": true,
+        "evidence": "Очень продолжительный и регулярный сбор урожая на протяжении всего сезона.",
+        "externalSource": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "criterion": "Крупные или средне-крупные ягоды",
+        "matches": true,
+        "evidence": "Ягоды средне-крупные, их размер остаётся стабильным в течение сезона; урожайность очень высокая.",
+        "externalSource": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "criterion": "Сладкий, десертный",
+        "matches": true,
+        "evidence": "Вкус очень сладкий, показатель Brix высокий и стабильный; отмечен хороший баланс сахара и кислот.",
+        "externalSource": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "criterion": "Да, нужна плотная ягода",
+        "matches": true,
+        "evidence": "В научном испытании для Murano измерялись плотность плодов 3,5–4,3 Н и содержание растворимых сухих веществ 9,3–9,7% в зависимости от варианта защиты растений.",
+        "externalSource": {
+          "title": "Agriculture (2022) — исследование качества ремонтантных сортов Murano, Albion и San Andreas",
+          "url": "https://www.mdpi.com/2077-0472/12/12/2041"
+        }
+      },
+      {
+        "criterion": "Да, участок бывает жарким",
+        "matches": true,
+        "evidence": "Ягоды отличаются отличной плотностью и лежкостью; плотность сохраняется даже в очень жаркие периоды.",
+        "externalSource": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "criterion": "Важна устойчивость к болезням",
+        "matches": true,
+        "evidence": "Отмечена хорошая устойчивость к заболеваниям листьев и корней.",
+        "externalSource": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      }
+    ],
+    "allExternalFacts": [
+      {
+        "text": "Сорт полностью ремонтантный.",
+        "characteristicIds": [
+          "waves"
+        ],
+        "priority": 30,
+        "source": {
+          "title": "CPVO — Strawberry Ring Test: Murano classified as fully remontant",
+          "url": "https://cpvo.europa.eu/sites/default/files/documents/rd_final_report_strawberry_ring_test_final_version_19dec_0.pdf"
+        }
+      },
+      {
+        "text": "Очень продолжительный и регулярный сбор урожая на протяжении всего сезона.",
+        "characteristicIds": [
+          "waves"
+        ],
+        "source": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "text": "Ягоды средне-крупные, их размер остаётся стабильным в течение сезона; урожайность очень высокая.",
+        "characteristicIds": [
+          "size"
+        ],
+        "source": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "text": "Вкус очень сладкий, показатель Brix высокий и стабильный; отмечен хороший баланс сахара и кислот.",
+        "characteristicIds": [
+          "taste"
+        ],
+        "source": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "text": "Ягоды отличаются отличной плотностью и лежкостью; плотность сохраняется даже в очень жаркие периоды.",
+        "characteristicIds": [
+          "firmness",
+          "heat"
+        ],
+        "source": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      },
+      {
+        "text": "В научном испытании для Murano измерялись плотность плодов 3,5–4,3 Н и содержание растворимых сухих веществ 9,3–9,7% в зависимости от варианта защиты растений.",
+        "characteristicIds": [
+          "firmness",
+          "taste"
+        ],
+        "priority": 10,
+        "source": {
+          "title": "Agriculture (2022) — исследование качества ремонтантных сортов Murano, Albion и San Andreas",
+          "url": "https://www.mdpi.com/2077-0472/12/12/2041"
+        }
+      },
+      {
+        "text": "Отмечена хорошая устойчивость к заболеваниям листьев и корней.",
+        "characteristicIds": [
+          "care"
+        ],
+        "source": {
+          "title": "CIV — официальная техническая карточка Murano",
+          "url": "https://civ.it/wp-content/uploads/2025/01/Murano_EN.pdf"
+        }
+      }
+    ]
+  },
+  "branches": [
+    {
+      "id": "apricot",
+      "title": "Абрикос",
+      "products": 3,
+      "varieties": 3,
+      "questions": [
+        {
+          "id": "harvest",
+          "title": "Когда хочется собирать абрикосы?",
+          "supportedChoices": [
+            "Поранее, в середине лета",
+            "Ближе к концу лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нравится больше?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "С приятной кислинкой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "fruit-size",
+          "title": "Хотите особенно крупные плоды?",
+          "supportedChoices": [
+            "Да, размер важен",
+            "Размер не главное, важен урожай"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего в основном нужен урожай?",
+          "supportedChoices": [
+            "Есть свежими",
+            "Для варенья и заготовок"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "space",
+          "title": "Сколько места есть для дерева?",
+          "supportedChoices": [
+            "Места достаточно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Немного — нужно компактнее"
+          ]
+        },
+        {
+          "id": "pair",
+          "title": "Готовы посадить рядом ещё один абрикос?",
+          "supportedChoices": [
+            "Да, можно посадить пару",
+            "Нет, нужно одно дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Абрикос Абакан 7л",
+          "variety": "Абрикос Абакан",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Абрикос Мелитопольский 7л",
+          "variety": "Абрикос Мелитопольский",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Абрикос Триумф  7л",
+          "variety": "Абрикос Триумф",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "title": "Яблоня",
+      "products": 24,
+      "varieties": 17,
+      "questions": [
+        {
+          "id": "season",
+          "title": "Когда хотите пользоваться урожаем?",
+          "supportedChoices": [
+            "Летом",
+            "Осенью",
+            "Зимой или ближе к зиме"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус яблок нравится?",
+          "supportedChoices": [
+            "Гармоничный кисло-сладкий",
+            "С заметной освежающей кислинкой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой размер яблок удобнее?",
+          "supportedChoices": [
+            "Крупные — в среднем от 120 г",
+            "Средние — примерно 70–119 г",
+            "Мелкие — примерно до 65 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "storage",
+          "title": "Как долго должны храниться яблоки?",
+          "supportedChoices": [
+            "Дольше двух месяцев",
+            "До двух месяцев — будем использовать быстрее"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "tree-size",
+          "title": "Какое дерево удобнее на участке?",
+          "supportedChoices": [
+            "Естественно невысокое — примерно до 2,5 м",
+            "Обычное среднее или сильнорослое дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "purpose",
+          "title": "Как будете использовать яблоки?",
+          "supportedChoices": [
+            "Есть свежими",
+            "Для сока, компота, варенья или другой переработки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Яблоня  Алтайская красавица 7л",
+          "variety": "Яблоня Алтайская красавица",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня  Жигулевское 7л",
+          "variety": "Яблоня Жигулевское",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Антоновка ОКС",
+          "variety": "Яблоня Антоновка",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Барыня 7л",
+          "variety": "Яблоня Барыня",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Барыня ОКС",
+          "variety": "Яблоня Барыня",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Горнист 7л",
+          "variety": "Яблоня Горнист",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Горнист ОКС",
+          "variety": "Яблоня Горнист",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Кибо 7л",
+          "variety": "Яблоня Кибо",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Кибо ОКС",
+          "variety": "Яблоня Кибо",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Ковровое ОКС",
+          "variety": "Яблоня Ковровое",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Ласковое ОКС",
+          "variety": "Яблоня Ласковое",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Осеннее Низкорослое ОКС",
+          "variety": "Яблоня Осеннее Низкорослое",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Папироянтарное 7л",
+          "variety": "Яблоня Папироянтарное",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Первый Салют ОКС",
+          "variety": "Яблоня Первый Салют",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Подарок Осени ОКС",
+          "variety": "Яблоня Подарок Осени",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Приземленное 7л",
+          "variety": "Яблоня Приземленное",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Сурхурай 7л",
+          "variety": "Яблоня Сурхурай",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Сурхурай ОКС",
+          "variety": "Яблоня Сурхурай",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Уралец 7л",
+          "variety": "Яблоня Уралец",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Уралец ОКС",
+          "variety": "Яблоня Уралец",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Уральское Наливное 7л",
+          "variety": "Яблоня Уральское Наливное",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Уральское Наливное ОКС",
+          "variety": "Яблоня Уральское Наливное",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Чудное 7л",
+          "variety": "Яблоня Чудное",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня Чудное ОКС",
+          "variety": "Яблоня Чудное",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "sweet-cherry",
+      "title": "Черешня",
+      "products": 9,
+      "varieties": 5,
+      "questions": [
+        {
+          "id": "season",
+          "title": "Когда хотите собирать черешню?",
+          "supportedChoices": [
+            "Рано — в июне",
+            "Позднее"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "color",
+          "title": "Какой цвет ягод нравится?",
+          "supportedChoices": [
+            "Тёмно-красные, почти чёрные",
+            "Розовые или светлые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус предпочитаете?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "Сладкий с лёгкой кислинкой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "berry-size",
+          "title": "Какой размер ягод удобнее?",
+          "supportedChoices": [
+            "Очень крупные — обычно около 6 г и больше",
+            "Средние — обычно около 4–5,5 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "texture",
+          "title": "Какая мякоть удобнее?",
+          "supportedChoices": [
+            "Плотная — удобнее перевозить",
+            "Нежная и сочная — есть сразу"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pair",
+          "title": "Сможете посадить сорт-опылитель рядом?",
+          "supportedChoices": [
+            "Да, посажу две подходящие черешни"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужна подтверждённо самоплодная"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Черешня Бряночка 7л",
+          "variety": "Черешня Бряночка",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Бряночка ОКС",
+          "variety": "Черешня Бряночка",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Брянская розовая 7л",
+          "variety": "Черешня Брянская розовая",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Валерий Чкалов 7л",
+          "variety": "Черешня Валерий Чкалов",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Валерий Чкалов ОКС",
+          "variety": "Черешня Валерий Чкалов",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Оленька 7л",
+          "variety": "Черешня Оленька",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Оленька ОКС",
+          "variety": "Черешня Оленька",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Сытная 7л",
+          "variety": "Черешня Сытная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черешня Сытная ОКС",
+          "variety": "Черешня Сытная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "cherry",
+      "title": "Вишня",
+      "products": 7,
+      "varieties": 7,
+      "questions": [
+        {
+          "id": "kind",
+          "title": "Какой тип вишни нужен?",
+          "supportedChoices": [
+            "Войлочная — компактный опушённый куст",
+            "Обычная или степная кустовая вишня"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать ягоды?",
+          "supportedChoices": [
+            "Рано — в первой половине июля",
+            "Средний срок — позже в июле",
+            "Поздно — примерно в середине августа"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус предпочтительнее?",
+          "supportedChoices": [
+            "С кислинкой, для заготовок"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Слаще, для еды свежими"
+          ]
+        },
+        {
+          "id": "size",
+          "title": "Хотите крупные ягоды?",
+          "supportedChoices": [
+            "Да, крупные для своего вида",
+            "Размер не важен, нужен урожай"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Что будете делать с урожаем?",
+          "supportedChoices": [
+            "Есть свежим",
+            "Компоты, варенье, заморозка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pair",
+          "title": "Готовы посадить несколько кустов?",
+          "supportedChoices": [
+            "Да, посажу сорт-опылитель",
+            "Нет, нужен самоплодный или частично самоплодный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Вишня Войлочная Восточная 2л",
+          "variety": "Вишня Войлочная Восточная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Войлочная Натали 2л",
+          "variety": "Вишня Войлочная Натали",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Войлочная осенняя Вировская 2л",
+          "variety": "Вишня Войлочная осенняя Вировская",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Войлочная Триана 2л",
+          "variety": "Вишня Войлочная Триана",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Маяк 3л",
+          "variety": "Вишня Маяк",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Пламенная 3л",
+          "variety": "Вишня Пламенная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вишня Уральская  3л",
+          "variety": "Вишня Уральская",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        }
+      ]
+    },
+    {
+      "id": "raspberry",
+      "title": "Малина",
+      "products": 19,
+      "varieties": 14,
+      "questions": [
+        {
+          "id": "fruiting",
+          "title": "Как хотите собирать малину?",
+          "supportedChoices": [
+            "Один основной летний урожай",
+            "Позже и до осени — ремонтантную"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "color",
+          "title": "Какого цвета ягоды хочется?",
+          "supportedChoices": [
+            "Красные или малиновые",
+            "Жёлтые, золотистые или янтарные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус важнее?",
+          "supportedChoices": [
+            "Сладкая или десертная, без заметной кислинки",
+            "Кисло-сладкая, освежающая"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой размер ягод предпочтительнее?",
+          "supportedChoices": [
+            "Крупные — средняя масса начинается примерно от 5 г",
+            "Средние — средняя масса примерно до 5 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "thorns",
+          "title": "Насколько мешают колючки?",
+          "supportedChoices": [
+            "Нужны без шипов или с редкими шипами только снизу",
+            "Шипы допустимы по большей части побега"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Куда пойдёт большая часть ягод?",
+          "supportedChoices": [
+            "Есть свежими и подавать на стол",
+            "Перевозить, замораживать или перерабатывать"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Малина Антарес 2л",
+          "variety": "Малина Антарес",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Антарес Р9",
+          "variety": "Малина Антарес",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Гусар 2л",
+          "variety": "Малина Гусар",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Гусар Р9",
+          "variety": "Малина Гусар",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Желтый Гигант 2л",
+          "variety": "Малина Желтый Гигант",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Малахат 2л",
+          "variety": "Малина Малахат",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Пересвет 2л",
+          "variety": "Малина Пересвет",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Золотые Купола Р9",
+          "variety": "Малина ремонтантная Золотые Купола",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Карамелька 2л",
+          "variety": "Малина ремонтантная Карамелька",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Карамелька Р9",
+          "variety": "Малина ремонтантная Карамелька",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Конек-Горбунок Р9",
+          "variety": "Малина ремонтантная Конек-Горбунок",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Малиновая гряда Р9",
+          "variety": "Малина ремонтантная Малиновая гряда",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина ремонтантная Пингвин 2л",
+          "variety": "Малина ремонтантная Пингвин",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Солнышко  Р9",
+          "variety": "Малина Солнышко",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Солнышко 2л",
+          "variety": "Малина Солнышко",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Турмалин 2л",
+          "variety": "Малина Турмалин",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Турмалин Р9",
+          "variety": "Малина Турмалин",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Челябинская Желтая Р9",
+          "variety": "Малина Челябинская Желтая",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малиновое дерево Гордость России Р9",
+          "variety": "Малиновое дерево Гордость России",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "blackberry",
+      "title": "Ежевика",
+      "products": 6,
+      "varieties": 6,
+      "questions": [
+        {
+          "id": "thorns",
+          "title": "Хотите собирать ягоды без колючек?",
+          "supportedChoices": [
+            "Да, только без шипов",
+            "Шипы допустимы"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какой куст удобнее разместить?",
+          "supportedChoices": [
+            "Более прямой и компактный",
+            "Длинные побеги, можно подвязать"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать ежевику?",
+          "supportedChoices": [
+            "Поранее",
+            "В конце лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой размер ягод нужен?",
+          "supportedChoices": [
+            "Очень крупные",
+            "Средние, но много"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нравится?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "Кисло-сладкий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "support",
+          "title": "Какая поддержка для побегов вам удобнее?",
+          "supportedChoices": [
+            "Полноценная шпалера для длинных побегов",
+            "Простая поддержка для более прямого куста"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Ежевика Агавам 3л",
+          "variety": "Ежевика Агавам",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ежевика Апачи 2л",
+          "variety": "Ежевика Апачи",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ежевика Карака Блэк 2л",
+          "variety": "Ежевика Карака Блэк",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ежевика Коламбия Стар 2л",
+          "variety": "Ежевика Коламбия Стар",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ежевика Трипл Краун 2л",
+          "variety": "Ежевика Трипл Краун",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ежевика Чачанская Бестрна 2л",
+          "variety": "Ежевика Чачанская Бестрна",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "currant",
+      "title": "Смородина",
+      "products": 18,
+      "varieties": 16,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какого цвета ягоды хочется?",
+          "supportedChoices": [
+            "Чёрные",
+            "Красные",
+            "Белые, светло-жёлтые или прозрачные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать ягоды?",
+          "supportedChoices": [
+            "Поранее — ранний или среднеранний сорт",
+            "Позже — средний или поздний сорт"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нравится?",
+          "supportedChoices": [
+            "Сладкий или особенно десертный",
+            "Кисло-сладкий или освежающе кислый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой размер ягод нужен?",
+          "supportedChoices": [
+            "Крупные — подтверждено от 1,5 г",
+            "Некрупные или средние — примерно до 1,4 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Как будете использовать ягоды?",
+          "supportedChoices": [
+            "В основном есть свежими",
+            "Варенье, сок, желе или заморозка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "picking",
+          "title": "Что важнее при сборе?",
+          "supportedChoices": [
+            "Чистый сбор и возможность перевезти",
+            "Нежные ягоды для еды или быстрой переработки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Смородина белая Беляна 3л",
+          "variety": "Смородина белая Беляна",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Бен Тибен 3л",
+          "variety": "Смородина Бен Тибен",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Бен Тибен 3л",
+          "variety": "Смородина Бен Тибен",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Глариоза 3л",
+          "variety": "Смородина Глариоза",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина красная Рованда 3л",
+          "variety": "Смородина красная Рованда",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина красная Сахарная 3л",
+          "variety": "Смородина красная Сахарная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Монисто 3л",
+          "variety": "Смородина Монисто",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Мушкетер 3л",
+          "variety": "Смородина Мушкетер",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина цветная Йонкер ван Тетс 3л",
+          "variety": "Смородина цветная Йонкер ван Тетс",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина цветная Осенняя Радость 3л",
+          "variety": "Смородина цветная Осенняя Радость",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Валовая 3л",
+          "variety": "Смородина черная Валовая",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Валовая Р9",
+          "variety": "Смородина черная Валовая",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Вуаль 3л",
+          "variety": "Смородина черная Вуаль",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Ксюша 3л",
+          "variety": "Смородина черная Ксюша",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Мила 3л",
+          "variety": "Смородина черная Мила",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Перун 3л",
+          "variety": "Смородина черная Перун",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина черная Селеченская Р9",
+          "variety": "Смородина черная Селеченская",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Ядреная 3л",
+          "variety": "Смородина Ядреная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "gooseberry",
+      "title": "Крыжовник",
+      "products": 8,
+      "varieties": 8,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какого цвета ягоды хочется?",
+          "supportedChoices": [
+            "Зелёные или жёлтые",
+            "Красные, вишнёвые или почти чёрные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "thorns",
+          "title": "Насколько важен удобный сбор?",
+          "supportedChoices": [
+            "Хочу почти без шипов или с редкими шипами снизу",
+            "Обычные или многочисленные шипы допустимы"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Насколько важна высокая оценка вкуса?",
+          "supportedChoices": [
+            "Хочу оценку вкуса 4,7–5 баллов",
+            "Подойдёт вкус около 4–4,5 балла"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой размер ягод нужен?",
+          "supportedChoices": [
+            "Хочу сорт, у которого бывают ягоды 6 г и больше",
+            "Подойдут средние ягоды примерно 2–4 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать крыжовник?",
+          "supportedChoices": [
+            "Поранее — ранний или среднеранний",
+            "Позже — средний или среднепоздний"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Как будете использовать ягоды?",
+          "supportedChoices": [
+            "Есть свежими",
+            "Варенье, соки и другие заготовки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Крыжовник  Консул 3л",
+          "variety": "Крыжовник Консул",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник  Кооператор 3л",
+          "variety": "Крыжовник Кооператор",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник  черносливный 3л",
+          "variety": "Крыжовник черносливный",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник Командор (Владил) 3л",
+          "variety": "Крыжовник Командор (Владил)",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник Садко 3л",
+          "variety": "Крыжовник Садко",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник Сириус 3л",
+          "variety": "Крыжовник Сириус",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник Уральский виноград 3л",
+          "variety": "Крыжовник Уральский виноград",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Крыжовник Хиннонмаки Рот 3л",
+          "variety": "Крыжовник Хиннонмаки Рот",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "honeysuckle",
+      "title": "Жимолость",
+      "products": 20,
+      "varieties": 19,
+      "questions": [
+        {
+          "id": "season",
+          "title": "Когда хотите собирать ягоды?",
+          "supportedChoices": [
+            "Первые — ранние или среднеранние",
+            "Позже — средние, среднепоздние или поздние"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нравится?",
+          "supportedChoices": [
+            "Десертный — сладкий, без горечи или оценка от 4,7",
+            "Яркий — выраженная кислинка, терпкость или горчинка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Какой обычный размер ягод нужен?",
+          "supportedChoices": [
+            "Крупные — средняя масса от 1,5 г",
+            "Средние или небольшие — примерно до 1,4 г"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "drop",
+          "title": "Как ягоды должны держаться на ветках?",
+          "supportedChoices": [
+            "Не осыпаются или осыпаемость слабая",
+            "Осыпаемость средняя или сильная — соберу вовремя"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "picking",
+          "title": "Как будете собирать и использовать урожай?",
+          "supportedChoices": [
+            "Нужны плотные ягоды для перевозки или механического сбора",
+            "Подойдут нежные ягоды для ручного сбора"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой взрослый куст удобнее?",
+          "supportedChoices": [
+            "Невысокий — примерно до 1,5 м",
+            "Высокий — примерно от 1,6 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Жимолость Аврора 3л",
+          "variety": "Жимолость Аврора",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Аврора 3л",
+          "variety": "Жимолость Аврора",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Бакчарская Юбилейная 3л",
+          "variety": "Жимолость Бакчарская Юбилейная",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Бакчарский Великан 3л",
+          "variety": "Жимолость Бакчарский Великан",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Блю Банана 3л",
+          "variety": "Жимолость Блю Банана",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Бореал Близард 3л",
+          "variety": "Жимолость Бореал Близард",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Бореал Бьюти 3л",
+          "variety": "Жимолость Бореал Бьюти",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Бореалис 3л",
+          "variety": "Жимолость Бореалис",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Войтек 3л",
+          "variety": "Жимолость Войтек",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Восторг 3л",
+          "variety": "Жимолость Восторг",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Герда 3л",
+          "variety": "Жимолость Герда",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Дочь Великана 3л",
+          "variety": "Жимолость Дочь Великана",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Парабельская 3л",
+          "variety": "Жимолость Парабельская",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Ребекка 3л",
+          "variety": "Жимолость Ребекка",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Синий Утес 3л",
+          "variety": "Жимолость Синий Утес",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Содружество 3л",
+          "variety": "Жимолость Содружество",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Соловей 3л",
+          "variety": "Жимолость Соловей",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Уссульга 3л",
+          "variety": "Жимолость Уссульга",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Хоней Би 3л",
+          "variety": "Жимолость Хоней Би",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Жимолость Шахиня 3л",
+          "variety": "Жимолость Шахиня",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "blueberry",
+      "title": "Голубика",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "height",
+          "title": "Какой куст удобнее?",
+          "supportedChoices": [
+            "Компактный, примерно по пояс",
+            "Можно высокий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать ягоды?",
+          "supportedChoices": [
+            "Рано"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "В конце лета"
+          ]
+        },
+        {
+          "id": "size",
+          "title": "Размер ягод важен?",
+          "supportedChoices": [
+            "Главное — урожайность"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Да, крупные"
+          ]
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нравится?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "Кисло-сладкий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "yield",
+          "title": "Хотите высокий стабильный урожай?",
+          "supportedChoices": [
+            "Да, урожайность особенно важна",
+            "Главное — размер ягод"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pair",
+          "title": "Сможете посадить второй сорт рядом?",
+          "supportedChoices": [
+            "Да, место есть",
+            "Нет, один куст"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Голубика  Нортланд 3л",
+          "variety": "Голубика Нортланд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "sea-buckthorn",
+      "title": "Облепиха",
+      "products": 5,
+      "varieties": 5,
+      "questions": [
+        {
+          "id": "thorns",
+          "title": "Насколько важно собирать ягоды без колючек?",
+          "supportedChoices": [
+            "Редкие колючки допустимы"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Хочу без шипов или почти без них"
+          ]
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус облепихи нравится?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "Кисло-сладкий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "berry-size",
+          "title": "Хотите особенно крупные ягоды?",
+          "supportedChoices": [
+            "Да, нужны крупные",
+            "Главное — высокий урожай"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "harvest",
+          "title": "Когда удобнее собирать облепиху?",
+          "supportedChoices": [
+            "В августе",
+            "Позже, в конце лета или начале осени"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего нужны ягоды?",
+          "supportedChoices": [
+            "Есть свежими",
+            "Соки, варенье и заморозка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pollinator",
+          "title": "Сможете посадить мужской сорт-опылитель?",
+          "supportedChoices": [
+            "Да, место для опылителя есть"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Пока нужен только один куст"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Облепиха Алтайская садкая 2л",
+          "variety": "Облепиха Алтайская садкая",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Облепиха Огниво 2л",
+          "variety": "Облепиха Огниво",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Облепиха Чечек 2л",
+          "variety": "Облепиха Чечек",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Облепиха Эссель 2л",
+          "variety": "Облепиха Эссель",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Облепиха Этна 2л",
+          "variety": "Облепиха Этна",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "svg",
+      "title": "СВГ — сливово-вишнёвый гибрид",
+      "products": 3,
+      "varieties": 3,
+      "questions": [
+        {
+          "id": "fruit-color",
+          "title": "Какого цвета плоды хочется?",
+          "supportedChoices": [
+            "Тёмно-красные, бордовые или почти чёрные",
+            "Светлые, жёлто-зелёные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "fruit-taste",
+          "title": "Какой вкус вам ближе?",
+          "supportedChoices": [
+            "Очень сладкий",
+            "Сладкий с оттенком черешни или лёгкой кислинкой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flesh-color",
+          "title": "Какого цвета мякоть предпочитаете?",
+          "supportedChoices": [
+            "Красная",
+            "Жёлтая или зелёная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "bush-shape",
+          "title": "Какой куст проще разместить?",
+          "supportedChoices": [
+            "Узкий, пирамидальный",
+            "Раскидистый, стелющийся"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется собирать плоды?",
+          "supportedChoices": [
+            "Поранее — ранний сорт",
+            "Позже — средний срок"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "first-crop",
+          "title": "Сколько готовы ждать первого урожая?",
+          "supportedChoices": [
+            "Обычно 2–3 года",
+            "Допустимо 2–4 года"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "stone",
+          "title": "Какая косточка удобнее для еды и заготовок?",
+          "supportedChoices": [
+            "Маленькая, даже если отделяется трудно",
+            "Средняя, тоже может отделяться трудно"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "СВГ Бетта 2л",
+          "variety": "СВГ Бетта",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "СВГ Омская ночка 2л",
+          "variety": "СВГ Омская ночка",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "СВГ Пирамидальная 2л",
+          "variety": "СВГ Пирамидальная",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "jostaberry",
+      "title": "Йошта",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "taste",
+          "title": "Какой вкус ягод вы ожидаете?",
+          "supportedChoices": [
+            "Кисло-сладкий с необычным ароматом"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Максимально сладкий"
+          ]
+        },
+        {
+          "id": "size",
+          "title": "Нужны крупные ягоды?",
+          "supportedChoices": [
+            "Да, крупные — около 5–7 г",
+            "Размер не важен, нужен урожай"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хотите собирать йошту?",
+          "supportedChoices": [
+            "В конце июля — начале августа"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Раньше, в начале лета"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Что будете делать с ягодами?",
+          "supportedChoices": [
+            "Есть свежими",
+            "Замораживать и варить варенье"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "space",
+          "title": "Есть место для раскидистого куста?",
+          "supportedChoices": [
+            "Да, куст до 2,5 м подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен небольшой куст до 1 м"
+          ]
+        },
+        {
+          "id": "companion",
+          "title": "Хотите посадить рядом смородину для большего урожая?",
+          "supportedChoices": [
+            "Да, можно посадить рядом",
+            "Нет, нужен один самоплодный куст"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Йошта Моро 1,6л",
+          "variety": "Йошта Моро",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "strawberry",
+      "title": "Клубника обычная",
+      "products": 13,
+      "varieties": 9,
+      "questions": [
+        {
+          "id": "season",
+          "title": "Когда хотите собирать клубнику?",
+          "supportedChoices": [
+            "Как можно раньше",
+            "В середине сезона",
+            "Позже"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "size",
+          "title": "Нужны крупные ягоды?",
+          "supportedChoices": [
+            "Да, очень крупные",
+            "Средние, но много"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус любите?",
+          "supportedChoices": [
+            "Очень сладкий и ароматный",
+            "Кисло-сладкий, освежающий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "firmness",
+          "title": "Нужно перевозить ягоды?",
+          "supportedChoices": [
+            "Да, нужна плотная ягода",
+            "Нет, едим на месте"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего выращиваете?",
+          "supportedChoices": [
+            "Для свежей еды",
+            "Для варенья и заморозки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Хотите сорт попроще в уходе?",
+          "supportedChoices": [
+            "Да, нужен неприхотливый",
+            "Готовы уделять больше внимания"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Клубника Азия 1,6л",
+          "variety": "Клубника Азия",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Азия Р9",
+          "variety": "Клубника Азия",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Альба 2л",
+          "variety": "Клубника Альба",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Альба Р9",
+          "variety": "Клубника Альба",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Вима Ксима 2л",
+          "variety": "Клубника Вима Ксима",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Вима Тарда 2л",
+          "variety": "Клубника Вима Тарда",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Зенга Зенгана 2л",
+          "variety": "Клубника Зенга Зенгана",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Корона 2л",
+          "variety": "Клубника Корона",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Корона Р9",
+          "variety": "Клубника Корона",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Роксана 1л",
+          "variety": "Клубника Роксана",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Элиане 2л",
+          "variety": "Клубника Элиане",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Элиане Р9",
+          "variety": "Клубника Элиане",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника Эльсанта 1л",
+          "variety": "Клубника Эльсанта",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "strawberry-remontant",
+      "title": "Клубника ремонтантная",
+      "products": 4,
+      "varieties": 3,
+      "questions": [
+        {
+          "id": "waves",
+          "title": "Как долго хотите собирать ягоды?",
+          "supportedChoices": [
+            "Почти непрерывно до осени"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Двумя заметными волнами"
+          ]
+        },
+        {
+          "id": "size",
+          "title": "Что важнее в размере и урожае?",
+          "supportedChoices": [
+            "Крупные или средне-крупные ягоды",
+            "Размер не главное, важна урожайность"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус нужен?",
+          "supportedChoices": [
+            "Сладкий, десертный",
+            "Сбалансированный, с кислинкой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "firmness",
+          "title": "Будете перевозить или хранить ягоды?",
+          "supportedChoices": [
+            "Да, нужна плотная ягода",
+            "Хочу сочную ягоду для еды сразу"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "heat",
+          "title": "Важно, чтобы качество ягод сохранялось в жару?",
+          "supportedChoices": [
+            "Да, участок бывает жарким",
+            "Лучше сорт для прохладного участка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Что важнее в уходе?",
+          "supportedChoices": [
+            "Готов(а) к регулярному поливу и подкормкам",
+            "Важна устойчивость к болезням"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Клубника Мурано 2л",
+          "variety": "Клубника Мурано",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника ремонтантная Альбион Р9",
+          "variety": "Клубника ремонтантная Альбион",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника ремонтантная Вима Рина 2л",
+          "variety": "Клубника ремонтантная Вима Рина",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Клубника ремонтантная Вима Рина Р9",
+          "variety": "Клубника ремонтантная Вима Рина",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "lilac",
+      "title": "Сирень",
+      "products": 9,
+      "varieties": 9,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какая гамма цветков нравится?",
+          "supportedChoices": [
+            "Розовая или жемчужно-розовая",
+            "Фиолетовая, голубая или лиловая",
+            "Пурпурная или красновато-пурпурная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower",
+          "title": "Какие цветки хочется видеть?",
+          "supportedChoices": [
+            "Пышные, махровые",
+            "Простые, классические"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "aroma",
+          "title": "Какой аромат предпочтительнее?",
+          "supportedChoices": [
+            "Лёгкий, ненавязчивый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Заметный, душистый"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты нужен куст?",
+          "supportedChoices": [
+            "Компактный — примерно до 1,5 м",
+            "Крупный — около 3 м и выше"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется цветения?",
+          "supportedChoices": [
+            "Основной весенний срок",
+            "Позже — конец весны или начало лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "cluster",
+          "title": "Какие соцветия нравятся?",
+          "supportedChoices": [
+            "Крупные и пышные кисти",
+            "Небольшие, узкие или воздушные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Сирень  Мейера Ред Пикси 7,5л",
+          "variety": "Сирень Мейера Ред Пикси",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Венгерская 5л",
+          "variety": "Сирень Венгерская",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Виолетта 3л",
+          "variety": "Сирень Виолетта",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Жемчужина 3л",
+          "variety": "Сирень Жемчужина",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Катюша 3л",
+          "variety": "Сирень Катюша",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Красная Москва 3л",
+          "variety": "Сирень Красная Москва",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Петр Кончаловский 3л",
+          "variety": "Сирень Петр Кончаловский",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Радж Капур 3л",
+          "variety": "Сирень Радж Капур",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сирень Радмила 3л",
+          "variety": "Сирень Радмила",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "mock-orange",
+      "title": "Чубушник",
+      "products": 3,
+      "varieties": 3,
+      "questions": [
+        {
+          "id": "aroma",
+          "title": "Какой аромат хочется?",
+          "supportedChoices": [
+            "Сильный жасминовый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Лёгкий и ненавязчивый"
+          ]
+        },
+        {
+          "id": "flower",
+          "title": "Какие цветки нравятся?",
+          "supportedChoices": [
+            "Махровые или полумахровые",
+            "Простые белые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой куст поместится?",
+          "supportedChoices": [
+            "Компактный, до пояса/плеч",
+            "Высокий, как зелёная стена"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда ждать цветения?",
+          "supportedChoices": [
+            "Поранее, в июне",
+            "Позже, в июле"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где посадите?",
+          "supportedChoices": [
+            "Один красивый акцент",
+            "В ряд или живой изгородью"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Готовы регулярно формировать куст?",
+          "supportedChoices": [
+            "Нет, нужен аккуратный сам по себе",
+            "Да, можно подстригать"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Чубушник Венечный 3л",
+          "variety": "Чубушник Венечный",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Чубушник Даш Блаш 2л",
+          "variety": "Чубушник Даш Блаш",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Чубушник Елоу Хил 2л",
+          "variety": "Чубушник Елоу Хил",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "viburnum",
+      "title": "Калина",
+      "products": 5,
+      "varieties": 5,
+      "questions": [
+        {
+          "id": "purpose",
+          "title": "Что важнее в калине?",
+          "supportedChoices": [
+            "Съедобные полезные ягоды",
+            "Красивый куст и грозди"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус ягод предпочтительнее?",
+          "supportedChoices": [
+            "Поменьше горечи"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Терпкость допустима"
+          ]
+        },
+        {
+          "id": "color",
+          "title": "Какой цвет плодов нравится?",
+          "supportedChoices": [
+            "Классический красный",
+            "Необычный жёлтый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой размер куста удобен?",
+          "supportedChoices": [
+            "Компактный",
+            "Высокий и заметный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "harvest",
+          "title": "Нужен особенно щедрый урожай?",
+          "supportedChoices": [
+            "Да, это главное",
+            "Урожай вторичен"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pair",
+          "title": "Готовы посадить ещё одну калину рядом?",
+          "supportedChoices": [
+            "Да, можно несколько кустов",
+            "Нет, нужен один куст"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Калина Желтая Ксантокарпум 7л",
+          "variety": "Калина Желтая Ксантокарпум",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Калина Жолобовская 3л",
+          "variety": "Калина Жолобовская",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Калина Зарница 3л",
+          "variety": "Калина Зарница",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Калина красная гроздь 3л",
+          "variety": "Калина красная гроздь",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Калина Таежные рубины 3л",
+          "variety": "Калина Таежные рубины",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "rowan",
+      "title": "Рябина",
+      "products": 3,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "type",
+          "title": "Какую рябину представляете?",
+          "supportedChoices": [
+            "Обыкновенную красную рябину (Sorbus aucuparia)",
+            "Аронию черноплодную (другой род)"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "purpose",
+          "title": "Что важнее?",
+          "supportedChoices": [
+            "Ягоды для заготовок",
+            "Красивый осенний акцент"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "taste",
+          "title": "Какой вкус допустим?",
+          "supportedChoices": [
+            "Помягче и послаще",
+            "Терпкий традиционный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой размер растения удобен?",
+          "supportedChoices": [
+            "Куст, до 2–3 м",
+            "Настоящее дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "harvest",
+          "title": "Когда планируете собирать ягоды?",
+          "supportedChoices": [
+            "В конце лета",
+            "Осенью, можно после холодов"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Нужен максимально простой вариант?",
+          "supportedChoices": [
+            "Да, минимум ухода"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Готовы формировать растение"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Рябина красная 2л",
+          "variety": "Рябина красная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Рябина Черноплодная (Арония) 3л",
+          "variety": "Рябина Черноплодная (Арония)",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Рябина Черноплодная (Арония) 5л",
+          "variety": "Рябина Черноплодная (Арония)",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "spirea",
+      "title": "Спирея",
+      "products": 15,
+      "varieties": 13,
+      "questions": [
+        {
+          "id": "season",
+          "title": "Когда хочется увидеть основное цветение?",
+          "supportedChoices": [
+            "Весной — в апреле, мае или начале июня",
+            "Летом — с июня до августа или сентября"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower-color",
+          "title": "Какой цвет соцветий нравится?",
+          "supportedChoices": [
+            "Белый или кремовый",
+            "Розовый, малиновый или красный",
+            "Сразу белый, розовый и малиновый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "foliage",
+          "title": "Какая листва нужна весной и летом?",
+          "supportedChoices": [
+            "Жёлтая или золотистая",
+            "Классическая зелёная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой взрослый куст удобнее?",
+          "supportedChoices": [
+            "Низкий — примерно до 70 см",
+            "Средний — примерно 80–120 см",
+            "Высокий — примерно от 130 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какая форма куста больше подходит?",
+          "supportedChoices": [
+            "Компактная и округлая",
+            "Дуговидная, как фонтан",
+            "Прямостоячая или разрастающаяся порослью"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Нужен яркий цвет листьев осенью?",
+          "supportedChoices": [
+            "Жёлтый или золотистый",
+            "Оранжевый, красный или пурпурный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где хотите посадить спирею?",
+          "supportedChoices": [
+            "В бордюре, контейнере, рокарии или на переднем плане",
+            "В изгороди, группе, у воды или отдельным акцентом"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Спирея Вангутта Р9",
+          "variety": "Спирея Вангутта",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Грефшейм 3л",
+          "variety": "Спирея Грефшейм",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Грефшейм 5л",
+          "variety": "Спирея Грефшейм",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Грефшейм Р9",
+          "variety": "Спирея Грефшейм",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Иволистная 3л",
+          "variety": "Спирея Иволистная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Литл Принцесс 5л",
+          "variety": "Спирея Литл Принцесс",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Тор 3л",
+          "variety": "Спирея Тор",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Тор Голд Р9",
+          "variety": "Спирея Тор Голд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Файерлайт 3л",
+          "variety": "Спирея Файерлайт",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Япония Антони Ватерер Р9",
+          "variety": "Спирея Япония Антони Ватерер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Японская Альбифлора Р9",
+          "variety": "Спирея Японская Альбифлора",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Японская Генпей Р9",
+          "variety": "Спирея Японская Генпей",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея японская Голден Принцесс Р9",
+          "variety": "Спирея японская Голден Принцесс",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея Японская Голдфлейм Р9",
+          "variety": "Спирея Японская Голдфлейм",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Спирея японская Литл Принцесс 3л",
+          "variety": "Спирея японская Литл Принцесс",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "potentilla",
+      "title": "Лапчатка / курильский чай",
+      "products": 16,
+      "varieties": 15,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какого цвета хочется цветы?",
+          "supportedChoices": [
+            "Белые или кремовые",
+            "Жёлтые или лаймовые",
+            "Розовые, лососевые или оранжевые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой взрослый куст удобнее?",
+          "supportedChoices": [
+            "Низкий — примерно до 60 см",
+            "Средний — примерно 70–100 см",
+            "Крупнее — примерно 110–130 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт нравится?",
+          "supportedChoices": [
+            "Компактный округлый или подушковидный",
+            "Низкий и раскидистый",
+            "Более вертикальный или прямостоячий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower-size",
+          "title": "Какой размер цветков хочется?",
+          "supportedChoices": [
+            "Некрупные — примерно до 3 см",
+            "Крупные — примерно от 3,5 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "start",
+          "title": "Когда желательно начало цветения?",
+          "supportedChoices": [
+            "Поранее — с мая или конца весны",
+            "Летом — примерно с июня"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Насколько далеко в осень хочется цветения?",
+          "supportedChoices": [
+            "Максимально долго — до октября или заморозков",
+            "Достаточно цветения до сентября"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где хотите посадить куст?",
+          "supportedChoices": [
+            "У дорожки, в рокарии или контейнере",
+            "В низкой изгороди или групповой посадке"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Курильский чай (лапчатка) Абботсвуд Р9",
+          "variety": "Курильский чай (лапчатка) Абботсвуд",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Абботсвуд Р9",
+          "variety": "Курильский чай Абботсвуд",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Гламур Герл 2л",
+          "variety": "Курильский чай Гламур Герл",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Голден Тауэр 3л",
+          "variety": "Курильский чай Голден Тауэр",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Курильский чай Голдфингер Р9",
+          "variety": "Курильский чай Голдфингер",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Дакота Санпот 2л",
+          "variety": "Курильский чай Дакота Санпот",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Дэй Даун 2л",
+          "variety": "Курильский чай Дэй Даун",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Клондайк Р9",
+          "variety": "Курильский чай Клондайк",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Лаймлайт 3л",
+          "variety": "Курильский чай Лаймлайт",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Манго-Танго Р9",
+          "variety": "Курильский чай Манго-Танго",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай Маунт Эверест2л",
+          "variety": "Курильский чай Маунт Эверест2л",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай МИКС 7,5л",
+          "variety": "Курильский чай МИКС",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Курильский чай Пинк Принцесс 2л",
+          "variety": "Курильский чай Пинк Принцесс",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Курильский Чай Пинк Принцесс Р9",
+          "variety": "Курильский Чай Пинк Принцесс",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Курильский чай Претти Полли 2л",
+          "variety": "Курильский чай Претти Полли",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Курильский чай(лапчатка) Голдфингер 3л",
+          "variety": "Курильский чай(лапчатка) Голдфингер",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "barberry",
+      "title": "Барбарис",
+      "products": 2,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "foliage",
+          "title": "Какой цвет листвы нравится?",
+          "supportedChoices": [
+            "Жёлтый или лаймовый",
+            "Красный или оранжевый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт нужен?",
+          "supportedChoices": [
+            "Узкий, вертикальный",
+            "Округлый и раскидистый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты должен быть куст?",
+          "supportedChoices": [
+            "Невысокий, до пояса",
+            "Выше пояса"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "berries",
+          "title": "Хотите декоративные красные ягоды осенью?",
+          "supportedChoices": [
+            "Да, яркие плоды нужны",
+            "Главное — красивая листва"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "thorns",
+          "title": "Колючки допустимы рядом с дорожкой?",
+          "supportedChoices": [
+            "Колючки не мешают"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Лучше поменьше колючек"
+          ]
+        },
+        {
+          "id": "autumn",
+          "title": "Важна яркая осенняя окраска?",
+          "supportedChoices": [
+            "Да, нужен осенний эффект"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Главное — цвет всё лето"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Барбарис Оранж Рокет 2л",
+          "variety": "Барбарис Оранж Рокет",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Барбарис Санни 2л",
+          "variety": "Барбарис Санни",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "dogwood",
+      "title": "Дёрен",
+      "products": 12,
+      "varieties": 10,
+      "questions": [
+        {
+          "id": "feature",
+          "title": "Когда дёрен должен быть особенно красивым?",
+          "supportedChoices": [
+            "Летом — за счёт необычных листьев",
+            "Зимой — за счёт ярких побегов"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "foliage",
+          "title": "Какие листья нравятся летом?",
+          "supportedChoices": [
+            "Зелёные с белой или кремовой каймой",
+            "Жёлтые, золотистые или салатовые",
+            "Обычные зелёные"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Очень тёмные, пурпурные"
+          ]
+        },
+        {
+          "id": "stem-color",
+          "title": "Какого цвета нужны ветви зимой?",
+          "supportedChoices": [
+            "Красные или коралловые",
+            "Жёлтые или зеленовато-жёлтые",
+            "Тёмно-пурпурные, почти чёрные"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой взрослый размер удобен?",
+          "supportedChoices": [
+            "Компактный — примерно до 1,5 м",
+            "Средний — примерно 1,5–2,5 м",
+            "Крупный — может перерасти 2,5 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Какую осеннюю окраску хочется?",
+          "supportedChoices": [
+            "Красную или пурпурную",
+            "Жёлтую или золотистую"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "habit",
+          "title": "Как куст должен занимать место?",
+          "supportedChoices": [
+            "Аккуратно и округло",
+            "Широко, как свободная ширма или заросль"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Дерен белый Айвори Хало Р9",
+          "variety": "Дерен белый Айвори Хало",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Гоучаулти 3л",
+          "variety": "Дерен Гоучаулти",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Кардинал Р9",
+          "variety": "Дерен Кардинал",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Кессельринги 7,5л",
+          "variety": "Дерен Кессельринги",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Кессельринги Р9",
+          "variety": "Дерен Кессельринги",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Найтфолл 3л",
+          "variety": "Дерен Найтфолл",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Неон Берст Р9",
+          "variety": "Дерен Неон Берст",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Сибирика 2л",
+          "variety": "Дерен Сибирика",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Дерен Сибирика Вариегата Р9",
+          "variety": "Дерен Сибирика Вариегата",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Флавирамеа 7,5л",
+          "variety": "Дерен Флавирамеа",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Элегантиссима 2л, 1,6л",
+          "variety": "Дерен Элегантиссима",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Дерен Элегантиссима Р9",
+          "variety": "Дерен Элегантиссима",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "ninebark",
+      "title": "Пузыреплодник",
+      "products": 15,
+      "varieties": 13,
+      "questions": [
+        {
+          "id": "foliage",
+          "title": "Какой цвет листьев хочется?",
+          "supportedChoices": [
+            "Тёмно-красный, бордовый или пурпурный",
+            "Жёлтый, золотистый или лаймовый",
+            "Обычный зелёный",
+            "Смесь оранжевого, золотого и красного"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой взрослый размер удобен?",
+          "supportedChoices": [
+            "Совсем небольшой — примерно до 0,7 м",
+            "Компактный — примерно 0,8–1,5 м",
+            "Крупный — может достичь 1,8 м и больше"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Как куст должен выглядеть без строгой стрижки?",
+          "supportedChoices": [
+            "Плотный, округлый или прямостоячий",
+            "Широкий, раскидистый или с дугами ветвей"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flowers",
+          "title": "Какие светлые цветки нравятся больше?",
+          "supportedChoices": [
+            "Белые или кремовые",
+            "Розовые или заметно розоватые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "fruit",
+          "title": "Хотите декоративные плоды после цветения?",
+          "supportedChoices": [
+            "Да, важны красные декоративные плоды",
+            "Главный эффект пусть дают листья и цветы"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где планируете посадить куст?",
+          "supportedChoices": [
+            "В изгородь, ряд или ширму",
+            "В контейнер, небольшую клумбу или отдельным акцентом"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Пузыреплодник Ангел Голд Р9",
+          "variety": "Пузыреплодник Ангел Голд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Андре 3л",
+          "variety": "Пузыреплодник Андре",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Андре Р9",
+          "variety": "Пузыреплодник Андре",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Видовой 3л",
+          "variety": "Пузыреплодник Видовой",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Дартс Голд Р9",
+          "variety": "Пузыреплодник Дартс Голд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Диабло 7,5л",
+          "variety": "Пузыреплодник Диабло",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Диабло Р9",
+          "variety": "Пузыреплодник Диабло",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Леди ин Ред Р9",
+          "variety": "Пузыреплодник Леди ин Ред",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Литл Ангел Р9",
+          "variety": "Пузыреплодник Литл Ангел",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Литл Грини Р9",
+          "variety": "Пузыреплодник Литл Грини",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Литл Джокер Р9",
+          "variety": "Пузыреплодник Литл Джокер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Наггет Р9",
+          "variety": "Пузыреплодник Наггет",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Ред Барон 7,5л",
+          "variety": "Пузыреплодник Ред Барон",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Тайни Вайн Р9",
+          "variety": "Пузыреплодник Тайни Вайн",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Эмбер Джубили Р9",
+          "variety": "Пузыреплодник Эмбер Джубили",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "decorative-apple",
+      "title": "Яблоня декоративная",
+      "products": 4,
+      "varieties": 3,
+      "questions": [
+        {
+          "id": "flowers",
+          "title": "Какого цвета цветение хочется?",
+          "supportedChoices": [
+            "Ярко-розовые",
+            "Красно-розовые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "spring-leaves",
+          "title": "Какой цвет молодых листьев нравится?",
+          "supportedChoices": [
+            "Медно-красная",
+            "Пурпурная или золотисто-красная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn-leaves",
+          "title": "Нужна яркая листва осенью?",
+          "supportedChoices": [
+            "Ярко-жёлтая",
+            "Янтарная или коричневая"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "fruit",
+          "title": "Какие декоративные яблочки нравятся?",
+          "supportedChoices": [
+            "Красные, сохраняющиеся до весны",
+            "Жёлто-оранжевые с румянцем"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой размер и силуэт дерева удобнее?",
+          "supportedChoices": [
+            "Более компактное и аккуратное",
+            "Более крупное и раскидистое"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Как хотите посадить декоративную яблоню?",
+          "supportedChoices": [
+            "Одним ярким деревом",
+            "В аллее, группе или изгороди"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Яблоня декоративная Профьюжен ОКС",
+          "variety": "Яблоня декоративная Профьюжен",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня декоративная Профьюжн 7л",
+          "variety": "Яблоня декоративная Профьюжн",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня декоративная Рудольф 7л",
+          "variety": "Яблоня декоративная Рудольф",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Яблоня декоративная Рудольф ОКС",
+          "variety": "Яблоня декоративная Рудольф",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "bird-cherry",
+      "title": "Черёмуха",
+      "products": 2,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "flowers",
+          "title": "Какое цветение хочется?",
+          "supportedChoices": [
+            "Сиренево-розовые плотные кисти",
+            "Классические белые кисти"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "foliage",
+          "title": "Нравится красноватая листва весной?",
+          "supportedChoices": [
+            "Да, нужен весенний краснолистный эффект",
+            "Нет, важнее зелёная крона"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какое дерево подходит участку?",
+          "supportedChoices": [
+            "Компактное, около 2–3 м",
+            "Высокое, около 6–7 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "harvest",
+          "title": "Когда хотите собирать плоды?",
+          "supportedChoices": [
+            "В начале августа"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "К концу лета"
+          ]
+        },
+        {
+          "id": "taste-use",
+          "title": "Какой вкус плодов больше нравится?",
+          "supportedChoices": [
+            "Сладкие с лёгкой терпкостью",
+            "Кисло-сладкие с терпкостью"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pollinator",
+          "title": "Готовы посадить рядом сорт-опылитель?",
+          "supportedChoices": [
+            "Да, можно два дерева",
+            "Нет, нужно одно дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Черемуха Мавра 7,5л",
+          "variety": "Черемуха Мавра",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Черемуха розовая Мечта 7,5л",
+          "variety": "Черемуха розовая Мечта",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "manchurian-walnut",
+      "title": "Маньчжурский орех",
+      "products": 2,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "space",
+          "title": "Есть место для очень большого дерева?",
+          "supportedChoices": [
+            "Да, высота 25–30 м подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужно дерево до 5 м"
+          ]
+        },
+        {
+          "id": "crown",
+          "title": "Нравится широкая ажурная крона?",
+          "supportedChoices": [
+            "Да, раскидистая и ажурная"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна узкая колонна"
+          ]
+        },
+        {
+          "id": "leaves",
+          "title": "Хотите дерево с очень крупными листьями?",
+          "supportedChoices": [
+            "Да, гигантская листва нравится"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна мелкая листва"
+          ]
+        },
+        {
+          "id": "autumn",
+          "title": "Важен золотисто-жёлтый цвет осенью?",
+          "supportedChoices": [
+            "Да, нужен золотистый цвет",
+            "Осенний цвет не важен"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "nuts",
+          "title": "Хотите собирать съедобные орехи?",
+          "supportedChoices": [
+            "Да, готов(а) очищать толстую скорлупу",
+            "Главное — декоративное дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Какую роль даст ореху участок?",
+          "supportedChoices": [
+            "Главное одиночное дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Небольшой бордюр"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Маньчжурский орех 2л",
+          "variety": "Маньчжурский орех",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Маньчжурский орех 4л",
+          "variety": "Маньчжурский орех",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "forsythia",
+      "title": "Форзиция",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "flowers",
+          "title": "Хотите ярко-жёлтые цветы до появления листьев?",
+          "supportedChoices": [
+            "Да, золотистое весеннее цветение"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужны розовые летние цветы"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Когда должен появиться цвет?",
+          "supportedChoices": [
+            "В конце апреля — начале мая"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Осенью"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт куст высотой 2–3 метра?",
+          "supportedChoices": [
+            "Да, такой размер подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен куст до 50 см"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт нравится?",
+          "supportedChoices": [
+            "Раскидистый и густой"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Строгий колонновидный"
+          ]
+        },
+        {
+          "id": "winter",
+          "title": "Готовы защитить куст в особенно холодную зиму?",
+          "supportedChoices": [
+            "Да, укрытие возможно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен вариант совсем без укрытия"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Где хотите посадить форзицию?",
+          "supportedChoices": [
+            "Отдельным весенним акцентом",
+            "В группе или живой изгороди"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Форзиция промежуточная 7л",
+          "variety": "Форзиция промежуточная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "sorbaria",
+      "title": "Рябинник",
+      "products": 2,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "spring-color",
+          "title": "Какой весенний цвет листвы нравится?",
+          "supportedChoices": [
+            "Розовый или красноватый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Золотисто-жёлтый"
+          ]
+        },
+        {
+          "id": "autumn-color",
+          "title": "Нужна яркая окраска осенью?",
+          "supportedChoices": [
+            "Да, красная или оранжевая",
+            "Главное — зелёная листва летом"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flowers",
+          "title": "Хотите заметные белые метёлки?",
+          "supportedChoices": [
+            "Да, цветение важно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Главное — листья"
+          ]
+        },
+        {
+          "id": "size",
+          "title": "Сколько места можно отдать кусту?",
+          "supportedChoices": [
+            "Места достаточно для раскидистого куста",
+            "Нужен аккуратный компактный куст"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего нужен рябинник?",
+          "supportedChoices": [
+            "Как отдельный яркий куст"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Для живой изгороди"
+          ]
+        },
+        {
+          "id": "spread",
+          "title": "Готовы контролировать корневую поросль?",
+          "supportedChoices": [
+            "Да, быстрый рост подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен спокойный рост"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Рябинник Рябинолистный Р9",
+          "variety": "Рябинник Рябинолистный",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Рябинник Сэм 3л",
+          "variety": "Рябинник Сэм",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "cotoneaster",
+      "title": "Кизильник",
+      "products": 3,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "purpose",
+          "title": "Где хотите посадить кизильник?",
+          "supportedChoices": [
+            "В живую изгородь",
+            "В бордюр или группу"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Важна красная осенняя листва?",
+          "supportedChoices": [
+            "Да, нужен пурпурно-красный цвет",
+            "Осенняя окраска не главная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "berries",
+          "title": "Хотите декоративные чёрные плоды?",
+          "supportedChoices": [
+            "Да, это важно",
+            "Главное — плотная листва"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт куст высотой 2–3 метра?",
+          "supportedChoices": [
+            "Да, высокий куст подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен куст до 1 метра"
+          ]
+        },
+        {
+          "id": "pruning",
+          "title": "Готовы стричь и формировать куст?",
+          "supportedChoices": [
+            "Да, хочу аккуратную форму"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен естественный силуэт"
+          ]
+        },
+        {
+          "id": "city",
+          "title": "Нужен куст, устойчивый к городским условиям?",
+          "supportedChoices": [
+            "Да, устойчивость важна"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не важно"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Кизильник Блестящий 1л",
+          "variety": "Кизильник Блестящий",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Кизильник Блестящий 2л",
+          "variety": "Кизильник Блестящий",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Кизильник Блестящий 3л",
+          "variety": "Кизильник Блестящий",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "hazel",
+      "title": "Лещина",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "harvest",
+          "title": "Хотите собирать съедобные орехи?",
+          "supportedChoices": [
+            "Да, орехи важны",
+            "Нужен только декоративный куст"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда удобно собирать орехи?",
+          "supportedChoices": [
+            "В августе–сентябре",
+            "В начале лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Есть место для крупного куста?",
+          "supportedChoices": [
+            "Да, высота 5–8 м подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен куст до 2 м"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт куста нравится?",
+          "supportedChoices": [
+            "Раскидистый, веерообразный"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Узкий, колонновидный"
+          ]
+        },
+        {
+          "id": "flowers",
+          "title": "Нравятся ранние весенние серёжки?",
+          "supportedChoices": [
+            "Да, хочу ранний весенний эффект"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не важно"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Как будете использовать лещину?",
+          "supportedChoices": [
+            "Как плодовый куст",
+            "Для изгороди или укрепления склона"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Лещина 7л",
+          "variety": "Лещина",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "virginia-creeper",
+      "title": "Девичий виноград",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "place",
+          "title": "Что хотите закрыть зеленью?",
+          "supportedChoices": [
+            "Стену или строение",
+            "Забор или живую ширму"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Нужна очень высокая лиана?",
+          "supportedChoices": [
+            "Да, высота до 20–30 м подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужна лиана до 3 м"
+          ]
+        },
+        {
+          "id": "autumn",
+          "title": "Хотите ярко-красную листву осенью?",
+          "supportedChoices": [
+            "Да, багряный и пурпурный цвет"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна зелень без смены цвета"
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Хотите, чтобы лиана сама держалась за поверхность?",
+          "supportedChoices": [
+            "Да, без дополнительной поддержки"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Готовы регулярно подвязывать"
+          ]
+        },
+        {
+          "id": "growth",
+          "title": "Готовы контролировать быстрый рост?",
+          "supportedChoices": [
+            "Да, обрезка подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужна медленная лиана"
+          ]
+        },
+        {
+          "id": "birds",
+          "title": "Хотите растение, привлекающее птиц?",
+          "supportedChoices": [
+            "Да, пусть прилетают птицы"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Ягоды не нужны"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Девичий виноград 1л",
+          "variety": "Девичий виноград",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "willow",
+      "title": "Ива",
+      "products": 3,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "form",
+          "title": "Что удобнее: дерево или куст?",
+          "supportedChoices": [
+            "Округлый декоративный куст"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Большое раскидистое дерево"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Сколько места есть по высоте?",
+          "supportedChoices": [
+            "Много — дерево выше 12 м",
+            "Нужен куст около 2,5–3 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "branches",
+          "title": "Какой вид ветвей нравится?",
+          "supportedChoices": [
+            "Розово-красные гибкие побеги",
+            "Широкая крона с ломкими ветвями"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Хотите ранние весенние серёжки?",
+          "supportedChoices": [
+            "Да, это важно",
+            "Главное — летняя крона"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pruning",
+          "title": "Готовы регулярно обрезать растение?",
+          "supportedChoices": [
+            "Да, можно стричь"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, пусть растёт свободно"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Для чего нужна ива?",
+          "supportedChoices": [
+            "Для живой изгороди или плетения",
+            "Как большое дерево на влажном участке"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Ива Ломкая 10л",
+          "variety": "Ива Ломкая",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ива Ломкая 15л",
+          "variety": "Ива Ломкая",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ива Маяк Р9",
+          "variety": "Ива Маяк",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "linden",
+      "title": "Липа",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "space",
+          "title": "Есть место для большого дерева?",
+          "supportedChoices": [
+            "Да, высота 20–25 м подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужно дерево до 5 м"
+          ]
+        },
+        {
+          "id": "flowers",
+          "title": "Важны ароматные летние цветы?",
+          "supportedChoices": [
+            "Да, люблю аромат липы"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Цветение не важно"
+          ]
+        },
+        {
+          "id": "bees",
+          "title": "Хотите дерево, привлекающее пчёл?",
+          "supportedChoices": [
+            "Да, это плюс"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Лучше не привлекать насекомых"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Какая крона нравится?",
+          "supportedChoices": [
+            "Широкая или пирамидальная"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Плакучая"
+          ]
+        },
+        {
+          "id": "pruning",
+          "title": "Планируете формировать дерево?",
+          "supportedChoices": [
+            "Да, форму можно поддерживать"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужна естественная крона"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Как хотите посадить липу?",
+          "supportedChoices": [
+            "В аллею или группу",
+            "Одним главным деревом"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Липа мелколистная 5л",
+          "variety": "Липа мелколистная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "phlox",
+      "title": "Флоксы",
+      "products": 35,
+      "varieties": 35,
+      "questions": [
+        {
+          "id": "growth-form",
+          "title": "Как должен расти флокс?",
+          "supportedChoices": [
+            "Низким ковриком",
+            "Обычным прямостоячим кустом"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какая высота удобнее?",
+          "supportedChoices": [
+            "Совсем низкий — примерно до 20 см",
+            "Компактный — примерно 40–60 см",
+            "Средний — примерно 65–100 см",
+            "Очень высокий — примерно от 120 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "color",
+          "title": "Какая основная гамма цветков нравится?",
+          "supportedChoices": [
+            "Белая или очень светлая",
+            "Розовая, красная или коралловая",
+            "Сиреневая, голубеющая или фиолетовая"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "pattern",
+          "title": "Какой рисунок на цветке хочется?",
+          "supportedChoices": [
+            "Ровный однотонный цвет",
+            "Контрастный глазок или звезда в центре",
+            "Полосы, штрихи или дымчатый налёт"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется основного цветения?",
+          "supportedChoices": [
+            "Весной — в мае или начале июня",
+            "Летом — основной показ в июне или июле",
+            "Позже — в августе или сентябре"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower-size",
+          "title": "Какой размер отдельного цветка нравится?",
+          "supportedChoices": [
+            "Мелкий — примерно до 2,5 см",
+            "Средний — примерно 2,6–3,4 см",
+            "Крупный — примерно от 3,5 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где хотите видеть флокс?",
+          "supportedChoices": [
+            "Впереди, в рокарии или контейнере",
+            "В середине цветника или на срезку",
+            "На заднем плане или как высокий акцент"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Флокс Андрейка 1л",
+          "variety": "Флокс Андрейка",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Анна Гаганова 1л",
+          "variety": "Флокс Анна Гаганова",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Анна Каренина 1л",
+          "variety": "Флокс Анна Каренина",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Балет 1л",
+          "variety": "Флокс Балет",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Вайт 1,6л",
+          "variety": "Флокс Вайт",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Голубая отрада 1л",
+          "variety": "Флокс Голубая отрада",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Голубь мира 1л",
+          "variety": "Флокс Голубь мира",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Грин Лиф 1л",
+          "variety": "Флокс Грин Лиф",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Давид 1л",
+          "variety": "Флокс Давид",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Дымчатый коралл 1л",
+          "variety": "Флокс Дымчатый коралл",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Дэвидс Лавендер 1л",
+          "variety": "Флокс Дэвидс Лавендер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Капелька 1л",
+          "variety": "Флокс Капелька",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Катя 1л",
+          "variety": "Флокс Катя",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Кенди Твист 1л",
+          "variety": "Флокс Кенди Твист",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Кобзарь 1л",
+          "variety": "Флокс Кобзарь",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Кул Воте 1л",
+          "variety": "Флокс Кул Воте",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Лариса 1л",
+          "variety": "Флокс Лариса",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Лиззи 1л",
+          "variety": "Флокс Лиззи",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Лиловое покрывало 1л",
+          "variety": "Флокс Лиловое покрывало",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Мерлинка 1л",
+          "variety": "Флокс Мерлинка",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Новинка 1л",
+          "variety": "Флокс Новинка",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Павел Бажов 1л",
+          "variety": "Флокс Павел Бажов",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс поздний Фостера 1л",
+          "variety": "Флокс поздний Фостера",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Привет 1л",
+          "variety": "Флокс Привет",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Северное облако 1л",
+          "variety": "Флокс Северное облако",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Сесиль Ханабери 1л",
+          "variety": "Флокс Сесиль Ханабери",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Сеянец Гагановой 1л",
+          "variety": "Флокс Сеянец Гагановой",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Сумерки 1л",
+          "variety": "Флокс Сумерки",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Успех 1л",
+          "variety": "Флокс Успех",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Фиона 1л",
+          "variety": "Флокс Фиона",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Фрикли ред Шейдес 1л",
+          "variety": "Флокс Фрикли ред Шейдес",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Хесперис 1л",
+          "variety": "Флокс Хесперис",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Хохгезанг 1л",
+          "variety": "Флокс Хохгезанг",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Эрли Стар 1л",
+          "variety": "Флокс Эрли Стар",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Юннат 1л",
+          "variety": "Флокс Юннат",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "veronica",
+      "title": "Вероника",
+      "products": 4,
+      "varieties": 4,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какой цвет колосков нравится?",
+          "supportedChoices": [
+            "Синий или голубой",
+            "Розовый или красный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Где будет видна вероника?",
+          "supportedChoices": [
+            "Впереди — нужна низкая"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "В середине клумбы — повыше"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется цветения?",
+          "supportedChoices": [
+            "В начале лета",
+            "В середине или конце лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какой эффект нужен?",
+          "supportedChoices": [
+            "Строгие вертикальные свечи",
+            "Мягкий округлый кустик"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "duration",
+          "title": "Важно максимально долгое цветение?",
+          "supportedChoices": [
+            "Да, как можно дольше"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Достаточно одной яркой волны"
+          ]
+        },
+        {
+          "id": "care",
+          "title": "Хотите минимум ухода?",
+          "supportedChoices": [
+            "Да, простой многолетник",
+            "Можно делить и обрезать"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Вероника Анниверсари Блю Р9",
+          "variety": "Вероника Анниверсари Блю",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вероника Ротфукс Р9",
+          "variety": "Вероника Ротфукс",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вероника Ферст Чойс Р9",
+          "variety": "Вероника Ферст Чойс",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Вероника Хайдекинд Р9",
+          "variety": "Вероника Хайдекинд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "lily",
+      "title": "Лилии",
+      "products": 4,
+      "varieties": 4,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какого цвета должны быть цветы?",
+          "supportedChoices": [
+            "Белые или белоснежные",
+            "Лимонно-жёлтые с белой каймой",
+            "Коралловые с белой каймой"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты нужна лилия?",
+          "supportedChoices": [
+            "Высокая, около метра и больше"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Невысокая, до пояса"
+          ]
+        },
+        {
+          "id": "flower",
+          "title": "Какие цветы нравятся?",
+          "supportedChoices": [
+            "Огромные, трубчатые",
+            "Звёздчатые, раскрытые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "aroma",
+          "title": "Нужен сильный аромат?",
+          "supportedChoices": [
+            "Да, аромат должен быть заметным",
+            "Лучше мягкий или умеренный"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется цветения?",
+          "supportedChoices": [
+            "Поранее",
+            "Позже, к августу"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего нужна лилия?",
+          "supportedChoices": [
+            "Для букетов",
+            "Оставлять в цветнике"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Лилия  Старфайтер 3л",
+          "variety": "Лилия Старфайтер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Лилия Манисса — ОТ-гибрид 3л",
+          "variety": "Лилия Манисса — ОТ-гибрид",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Лилия Пацифик Оушен 3л",
+          "variety": "Лилия Пацифик Оушен",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Лилия Сильверсайд  3л",
+          "variety": "Лилия Сильверсайд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "daylily",
+      "title": "Лилейники",
+      "products": 2,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какой оттенок цветка нравится?",
+          "supportedChoices": [
+            "Лимонно-жёлтый сорт",
+            "Микс разных оттенков"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты нужен куст?",
+          "supportedChoices": [
+            "Высокий"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Компактный"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Когда должен цвести?",
+          "supportedChoices": [
+            "В начале лета",
+            "В середине или конце лета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "aroma",
+          "title": "Нужен аромат у лилейника?",
+          "supportedChoices": [
+            "Да, сильный сладковатый аромат"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, аромат не нужен"
+          ]
+        },
+        {
+          "id": "flower-size",
+          "title": "Какой размер цветка нравится?",
+          "supportedChoices": [
+            "Средний — около 10–12 см"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Очень крупный — около 15 см и больше"
+          ]
+        },
+        {
+          "id": "care",
+          "title": "Нужен максимально простой многолетник?",
+          "supportedChoices": [
+            "Да, посадить и любоваться"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Готовы делить и подкармливать"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Лилейник МИКС Р9",
+          "variety": "Лилейник МИКС",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Лилейник Фрейгранд Рефлекшн Р9",
+          "variety": "Лилейник Фрейгранд Рефлекшн",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "aster",
+      "title": "Астра",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какой цвет астры хочется?",
+          "supportedChoices": [
+            "Насыщенный синий"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Розовый или белый"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт куст высотой около 50–60 см?",
+          "supportedChoices": [
+            "Да, средняя высота подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна низкая, до 25 см"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Хотите цветение ближе к осени?",
+          "supportedChoices": [
+            "Да, с конца лета до заморозков"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужна весенняя астра"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Какой куст нравится?",
+          "supportedChoices": [
+            "Компактный и густой"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Высокий и раскидистый"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Где хотите видеть астру?",
+          "supportedChoices": [
+            "В бордюре или клумбе",
+            "В горшке или для срезки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "wildlife",
+          "title": "Хотите цветы, привлекающие бабочек?",
+          "supportedChoices": [
+            "Да, это важно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не важно"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Астра Блю Лагуна 10л",
+          "variety": "Астра Блю Лагуна",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "loosestrife",
+      "title": "Вербейник",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "foliage",
+          "title": "Нравятся золотистые листья?",
+          "supportedChoices": [
+            "Да, хочу золотисто-лимонную листву"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна тёмно-зелёная листва"
+          ]
+        },
+        {
+          "id": "growth",
+          "title": "Нужен цветущий ковёр?",
+          "supportedChoices": [
+            "Да, почвопокровный ковёр"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен вертикальный куст"
+          ]
+        },
+        {
+          "id": "flowers",
+          "title": "Какой цвет цветков нужен?",
+          "supportedChoices": [
+            "Ярко-жёлтый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Синий или фиолетовый"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется цветения?",
+          "supportedChoices": [
+            "С июня по август"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Только осенью"
+          ]
+        },
+        {
+          "id": "place",
+          "title": "Где хотите посадить вербейник?",
+          "supportedChoices": [
+            "У дорожки, в бордюре или рокарии",
+            "У берега водоёма"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "trim",
+          "title": "Готовы иногда подрезать разросшийся ковёр?",
+          "supportedChoices": [
+            "Да, небольшая обрезка подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, растение не должно разрастаться"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Вербейник Аурея Р9",
+          "variety": "Вербейник Аурея",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "shasta-daisy",
+      "title": "Нивяник",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "flower-form",
+          "title": "Какую ромашку хотите?",
+          "supportedChoices": [
+            "Махровую и пушистую"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Простую, с одним рядом лепестков"
+          ]
+        },
+        {
+          "id": "color",
+          "title": "Нужны классические белые цветы?",
+          "supportedChoices": [
+            "Да, белые с жёлтой серединой"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Хочу розовые цветы"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт высота 60–90 см?",
+          "supportedChoices": [
+            "Да, такая высота подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен карлик до 25 см"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Когда хочется ромашек?",
+          "supportedChoices": [
+            "С июля по сентябрь"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Весной"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Хотите срезать цветы для букета?",
+          "supportedChoices": [
+            "Да, для срезки",
+            "Нет, только для клумбы"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "winter",
+          "title": "Готовы укрыть растение листьями на зиму?",
+          "supportedChoices": [
+            "Да, лёгкое укрытие подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен сорт совсем без укрытия"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Нивяник Крейзи Дейзи Р9",
+          "variety": "Нивяник Крейзи Дейзи",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "allium",
+      "title": "Декоративный лук",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какого цвета шарики-соцветия хочется?",
+          "supportedChoices": [
+            "Ярко-розовые"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Белые или фиолетовые"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Нужен невысокий лук?",
+          "supportedChoices": [
+            "Да, до 30 см"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен выше метра"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Как долго хочется видеть цветы?",
+          "supportedChoices": [
+            "С мая по август"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Только осенью"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Где посадите декоративный лук?",
+          "supportedChoices": [
+            "В группе, миксбордере или альпийской горке",
+            "Для срезки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "wildlife",
+          "title": "Хотите привлечь пчёл и бабочек?",
+          "supportedChoices": [
+            "Да, это важно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не важно"
+          ]
+        },
+        {
+          "id": "care",
+          "title": "Нужен простой неприхотливый многолетник?",
+          "supportedChoices": [
+            "Да, минимум ухода"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Готовы к сложному уходу"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Лук Пинк Уан 1,6л",
+          "variety": "Лук Пинк Уан",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "imperata",
+      "title": "Императа",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Хотите краснеющую листву?",
+          "supportedChoices": [
+            "Да, багровая или пурпурная"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна голубая листва"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт злак высотой до 60 см?",
+          "supportedChoices": [
+            "Да, до 60 см"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна высокая ширма 1,5–2 м"
+          ]
+        },
+        {
+          "id": "effect",
+          "title": "Какой эффект нужен в саду?",
+          "supportedChoices": [
+            "Яркий эффект «живого огня»"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Спокойный зелёный фон"
+          ]
+        },
+        {
+          "id": "place",
+          "title": "Как будете использовать императу?",
+          "supportedChoices": [
+            "Одним ярким пятном",
+            "С хвойниками или камнями"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Готовы весной коротко обрезать сухую листву?",
+          "supportedChoices": [
+            "Да, обрезка подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, обрезать не хочу"
+          ]
+        },
+        {
+          "id": "winter",
+          "title": "Сможете укрывать растение в особенно суровую зиму?",
+          "supportedChoices": [
+            "Да, при необходимости укрою"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен вариант без укрытия"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Императа Ред Барон Р9",
+          "variety": "Императа Ред Барон",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "sedum",
+      "title": "Седум",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "flower-color",
+          "title": "Какой цвет соцветий нравится?",
+          "supportedChoices": [
+            "Фиолетово-розовый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Белый или жёлтый"
+          ]
+        },
+        {
+          "id": "foliage",
+          "title": "Нравится сизо-зелёная мясистая листва?",
+          "supportedChoices": [
+            "Да, такая листва подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна тонкая травянистая листва"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Нужен компактный куст 30–45 см?",
+          "supportedChoices": [
+            "Да, компактный"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен высокий, больше метра"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Хотите позднее цветение?",
+          "supportedChoices": [
+            "Да, до поздней осени"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужны весенние цветы"
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Важно, чтобы куст не разваливался после дождя?",
+          "supportedChoices": [
+            "Да, без подвязки",
+            "Подвязка допустима"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где хотите посадить седум?",
+          "supportedChoices": [
+            "В рокарии или альпийской горке",
+            "На переднем плане цветника"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Седум Мистер Гудбуд Р9",
+          "variety": "Седум Мистер Гудбуд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "gaillardia",
+      "title": "Гайлардия",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Нравятся красные цветы с жёлтой серединой?",
+          "supportedChoices": [
+            "Да, красно-жёлтые"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужны белые или синие"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Подойдёт куст высотой 40–60 см?",
+          "supportedChoices": [
+            "Да, средняя высота подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен карлик до 20 см"
+          ]
+        },
+        {
+          "id": "flower-size",
+          "title": "Хотите крупные цветы?",
+          "supportedChoices": [
+            "Да, около 10 см"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужны мелкие цветы"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Нужно цветение почти всё лето и осень?",
+          "supportedChoices": [
+            "Да, как можно дольше"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Достаточно весеннего цветения"
+          ]
+        },
+        {
+          "id": "place",
+          "title": "Где посадите гайлардию?",
+          "supportedChoices": [
+            "На клумбе или в бордюре",
+            "В контейнере"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "care",
+          "title": "Готовы удалять увядшие цветки?",
+          "supportedChoices": [
+            "Да, это несложно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен уход без обрезки"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Гайлардия Месса Ред Р9",
+          "variety": "Гайлардия Месса Ред",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "yarrow",
+      "title": "Тысячелистник",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какие оттенки цветов нравятся?",
+          "supportedChoices": [
+            "Розовый, персиковый и кремовый"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Только синий или фиолетовый"
+          ]
+        },
+        {
+          "id": "flower-form",
+          "title": "Хотите пышные махровые соцветия?",
+          "supportedChoices": [
+            "Да, пышные и махровые"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужны простые одиночные цветы"
+          ]
+        },
+        {
+          "id": "season",
+          "title": "Как долго хочется цветения?",
+          "supportedChoices": [
+            "С начала лета до осени"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Только ранней весной"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Нужен компактный куст?",
+          "supportedChoices": [
+            "Да, компактный"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужен высокий раскидистый куст"
+          ]
+        },
+        {
+          "id": "use",
+          "title": "Где будет расти тысячелистник?",
+          "supportedChoices": [
+            "В бордюре или миксбордере",
+            "Для срезки в букеты"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "wildlife",
+          "title": "Хотите привлекать пчёл и бабочек?",
+          "supportedChoices": [
+            "Да, это важно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не имеет значения"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Тысячелистник Тутти Фрутти Р9",
+          "variety": "Тысячелистник Тутти Фрутти",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "herbs",
+      "title": "Пряные многолетники",
+      "products": 4,
+      "varieties": 4,
+      "questions": [
+        {
+          "id": "aroma",
+          "title": "Какой аромат хочется?",
+          "supportedChoices": [
+            "Свежий классический",
+            "Цитрусовый",
+            "Необычный сладкий"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего чаще будете срезать зелень?",
+          "supportedChoices": [
+            "Для чая и напитков",
+            "Для блюд и десертов"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "strength",
+          "title": "Насколько сильный запах нужен?",
+          "supportedChoices": [
+            "Очень яркий"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Мягкий и нежный"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Какой кустик удобнее?",
+          "supportedChoices": [
+            "Можно высокий и пышный"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Компактный"
+          ]
+        },
+        {
+          "id": "look",
+          "title": "Важен декоративный вид?",
+          "supportedChoices": [
+            "Да, пусть украшает клумбу",
+            "Главное — ароматная зелень"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "spread",
+          "title": "Готовы ограничивать разрастание?",
+          "supportedChoices": [
+            "Да, можно ограничить"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, нужен спокойный рост"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Мята Апельсин Р9",
+          "variety": "Мята Апельсин",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мята Лимонная Р9",
+          "variety": "Мята Лимонная",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мята Перечная Р9",
+          "variety": "Мята Перечная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мята Шоколад Р9",
+          "variety": "Мята Шоколад",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "grasses",
+      "title": "Декоративные злаки",
+      "products": 12,
+      "varieties": 12,
+      "questions": [
+        {
+          "id": "height",
+          "title": "Какой высоты нужен злак вместе с цветоносами?",
+          "supportedChoices": [
+            "Низкий — примерно до 0,8 м",
+            "Средний — примерно 0,9–1,5 м"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Высокий — обычно выше 1,5 м"
+          ]
+        },
+        {
+          "id": "foliage",
+          "title": "Какая листва нравится больше?",
+          "supportedChoices": [
+            "Сизо-голубая, серебристая или серо-зелёная",
+            "Полосатая или пёстрая",
+            "Зелёная без декоративных полос"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "habit",
+          "title": "Какой силуэт удобнее?",
+          "supportedChoices": [
+            "Плотная округлая куртина или фонтан",
+            "Узкая или вертикальная форма"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower-head",
+          "title": "Какой декоративный эффект хочется?",
+          "supportedChoices": [
+            "Тонкие воздушные метёлки",
+            "Плотные тёмные соцветия-щётки",
+            "Главное — эффектная листва"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Что должно происходить осенью?",
+          "supportedChoices": [
+            "Жёлтая, золотая или медная окраска",
+            "Красная или бордовая окраска",
+            "Главный цвет нужен летом, осенняя смена не обязательна"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Куда хотите посадить злак?",
+          "supportedChoices": [
+            "В контейнер, рокарий или на передний план",
+            "Группой, в бордюре или у воды",
+            "Как ширму или высокий акцент"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Луговик Тардифлора 1,6л",
+          "variety": "Луговик Тардифлора",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мискантус Грацилимус Р9",
+          "variety": "Мискантус Грацилимус",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мискантус Литл Зебра Р9",
+          "variety": "Мискантус Литл Зебра",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Мискантус Стриктус Дварф Р9",
+          "variety": "Мискантус Стриктус Дварф",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Молиния Вариегата Р9",
+          "variety": "Молиния Вариегата",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Молиния Морхекс Р9",
+          "variety": "Молиния Морхекс",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Молиния Хайдебраут Р9",
+          "variety": "Молиния Хайдебраут",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Овсяница Блю Селект 1,6л",
+          "variety": "Овсяница Блю Селект",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Осока гладконосая Р9",
+          "variety": "Осока гладконосая",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пеннисетум Блэк Бьюти Р9",
+          "variety": "Пеннисетум Блэк Бьюти",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Просо Ротштральбуш Р9",
+          "variety": "Просо Ротштральбуш",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Споробол Воздушный 1,6л",
+          "variety": "Споробол Воздушный",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "rose",
+      "title": "Розы",
+      "products": 48,
+      "varieties": 38,
+      "questions": [
+        {
+          "id": "type",
+          "title": "Как роза должна выглядеть?",
+          "supportedChoices": [
+            "Много цветков на одной ветке — спрей",
+            "Аккуратный куст для клумбы или переднего плана",
+            "Пышный куст для заметного акцента",
+            "Плетистая роза для арки или опоры",
+            "Классический высокий цветок для букета"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "color",
+          "title": "Какой цвет хочется?",
+          "supportedChoices": [
+            "Белый или кремовый",
+            "Розовый, малиновый или сиреневый",
+            "Красный или бордовый",
+            "Жёлтый, абрикосовый или оранжевый",
+            "Контрастная двухцветная окраска"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "aroma",
+          "title": "Насколько важен аромат?",
+          "supportedChoices": [
+            "Хочу заметный или сильный аромат",
+            "Подойдёт слабый аромат или без запаха"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "flower-size",
+          "title": "Какой размер цветка нравится?",
+          "supportedChoices": [
+            "Небольшой — примерно до 7 см",
+            "Средний — примерно 8–9 см",
+            "Крупный — примерно от 10 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "repeat",
+          "title": "Нужно повторное цветение?",
+          "supportedChoices": [
+            "Да, волнами или почти непрерывно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Подойдёт одна основная волна"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты нужен взрослый куст?",
+          "supportedChoices": [
+            "Низкий — примерно до 70 см",
+            "Средний — примерно 80–120 см",
+            "Высокий — примерно от 130 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где роза должна работать лучше всего?",
+          "supportedChoices": [
+            "Для срезки и букетов",
+            "Для контейнера, бордюра или переднего плана",
+            "Для большой группы, изгороди или опоры"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Роза Алегрия 2л",
+          "variety": "Роза Алегрия",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Алегрия 3л",
+          "variety": "Роза Алегрия",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Анастасия 2л",
+          "variety": "Роза Анастасия",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Анастасия 3л",
+          "variety": "Роза Анастасия",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза английская кустовая Дездемона 3л",
+          "variety": "Роза английская кустовая Дездемона",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Беатрис 3л",
+          "variety": "Роза Беатрис",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Белла Вита 2л",
+          "variety": "Роза Белла Вита",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Белла Вита 3л",
+          "variety": "Роза Белла Вита",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Билона 2л",
+          "variety": "Роза Билона",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Вайт Ковер 3л",
+          "variety": "Роза Вайт Ковер",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Вау 2л",
+          "variety": "Роза Вау",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Вау 3л",
+          "variety": "Роза Вау",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Дарси Бассел 3л",
+          "variety": "Роза Дарси Бассел",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Еллоу Маджик 2л",
+          "variety": "Роза Еллоу Маджик",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Еллоу Маджик 3л",
+          "variety": "Роза Еллоу Маджик",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Иониум 3л",
+          "variety": "Роза Иониум",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Казино 3л",
+          "variety": "Роза Казино",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Каралуна 3л",
+          "variety": "Роза Каралуна",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Каталина 2л",
+          "variety": "Роза Каталина",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Керио 2л",
+          "variety": "Роза Керио",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Керио 3л",
+          "variety": "Роза Керио",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Констанс 3л",
+          "variety": "Роза Констанс",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Леди Бомбастик 3л",
+          "variety": "Роза Леди Бомбастик",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Лидия 3л",
+          "variety": "Роза Лидия",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Луис Одер 3л",
+          "variety": "Роза Луис Одер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Моника 2л",
+          "variety": "Роза Моника",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Моника 3л",
+          "variety": "Роза Моника",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Пастелла 2л",
+          "variety": "Роза Пастелла",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Пастелла 3л",
+          "variety": "Роза Пастелла",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Пэт Остин 3л",
+          "variety": "Роза Пэт Остин",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Роз де Решт 3л",
+          "variety": "Роза Роз де Решт",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Ругоза 3л",
+          "variety": "Роза Ругоза",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Сан Сити 2л",
+          "variety": "Роза Сан Сити",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза спрей Каталина 3л",
+          "variety": "Роза спрей Каталина",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза спрей Лидия 2л",
+          "variety": "Роза спрей Лидия",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза спрей Мисти Баблс 2л",
+          "variety": "Роза спрей Мисти Баблс",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза спрей Мисти Баблс 3л",
+          "variety": "Роза спрей Мисти Баблс",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза спрей Файер Флеш 2л",
+          "variety": "Роза спрей Файер Флеш",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза спрей Флешинг 2л",
+          "variety": "Роза спрей Флешинг",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза Топаз 2л",
+          "variety": "Роза Топаз",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Топаз 3л",
+          "variety": "Роза Топаз",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Транквилити 3л",
+          "variety": "Роза Транквилити",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Флешинг 3л",
+          "variety": "Роза Флешинг",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Роза флорибунда Мархензаубер 3л",
+          "variety": "Роза флорибунда Мархензаубер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Черная Магия 2л",
+          "variety": "Роза Черная Магия",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза Шоне Мэйд 3л",
+          "variety": "Роза Шоне Мэйд",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза шраб Бельведер 3л",
+          "variety": "Роза шраб Бельведер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Роза шраб Элоди Госюэн 3л",
+          "variety": "Роза шраб Элоди Госюэн",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "hydrangea",
+      "title": "Гортензии",
+      "products": 58,
+      "varieties": 32,
+      "questions": [
+        {
+          "id": "flower-shape",
+          "title": "Какая форма соцветий нравится?",
+          "supportedChoices": [
+            "Крупные округлые шары",
+            "Конусовидные метёлки"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой высоты нужен взрослый куст?",
+          "supportedChoices": [
+            "Компактный — примерно до 1 м",
+            "Средний — примерно 1,1–1,6 м",
+            "Крупный — обычно от 1,8 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "opening-color",
+          "title": "Какого цвета должны быть молодые соцветия?",
+          "supportedChoices": [
+            "Белые или кремовые",
+            "Лаймовые или зеленоватые"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "late-color",
+          "title": "Какой оттенок хочется к концу цветения?",
+          "supportedChoices": [
+            "Розовый",
+            "Красный, малиновый или бордовый",
+            "Остаётся белым или светлым"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "season",
+          "title": "Как долго хочется видеть цветы?",
+          "supportedChoices": [
+            "Начало не позже середины июля",
+            "Декоративна в сентябре или октябре"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Где планируете посадить?",
+          "supportedChoices": [
+            "В контейнере или небольшом саду",
+            "В группе, бордюре или живой изгороди"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "stems",
+          "title": "Насколько важны крепкие ветви?",
+          "supportedChoices": [
+            "Нужны прочные прямостоячие ветви",
+            "Допустимы изгибающиеся ветви или поддержка"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Гортензия Ангел Блаш 3л",
+          "variety": "Гортензия Ангел Блаш",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Аннабель Р9",
+          "variety": "Гортензия Аннабель",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Вайт Леди Р9",
+          "variety": "Гортензия Вайт Леди",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 15л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 2л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 3л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 5л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 7,5л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз 7,5л",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Ванила Фрайз Р9",
+          "variety": "Гортензия Ванила Фрайз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Вимс Ред Р9",
+          "variety": "Гортензия Вимс Ред",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грандифлора 10л",
+          "variety": "Гортензия Грандифлора",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грандифлора 3л",
+          "variety": "Гортензия Грандифлора",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грандифлора 5л",
+          "variety": "Гортензия Грандифлора",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грандифлора 7,5л",
+          "variety": "Гортензия Грандифлора",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грандифлора 7,5л",
+          "variety": "Гортензия Грандифлора",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Грей Эскейп Р9",
+          "variety": "Гортензия Грей Эскейп",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Диамантино Р9",
+          "variety": "Гортензия Диамантино",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Диамантитно 3л",
+          "variety": "Гортензия Диамантитно",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Коттон Крем Р9",
+          "variety": "Гортензия Коттон Крем",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Краса Лесково Р9",
+          "variety": "Гортензия Краса Лесково",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Лайм Лайм 2л",
+          "variety": "Гортензия Лайм Лайм",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Лайм Лайт 5л",
+          "variety": "Гортензия Лайм Лайт",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Лайм Лайт Р9",
+          "variety": "Гортензия Лайм Лайт",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Литл  Лайм Р9",
+          "variety": "Гортензия Литл Лайм",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Милк энд Хани 5л",
+          "variety": "Гортензия Милк энд Хани",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Мохито 2л",
+          "variety": "Гортензия Мохито",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Мэджикал Везувио Р9",
+          "variety": "Гортензия Мэджикал Везувио",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Мэджикал Кэндл Р9",
+          "variety": "Гортензия Мэджикал Кэндл",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Мэджикал Мунлайт Р9",
+          "variety": "Гортензия Мэджикал Мунлайт",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Пинк Винки Р9",
+          "variety": "Гортензия Пинк Винки",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Пинк энд Роуз 3л",
+          "variety": "Гортензия Пинк энд Роуз",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Пинки Промис 3л",
+          "variety": "Гортензия Пинки Промис",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Пинки Промис 5л",
+          "variety": "Гортензия Пинки Промис",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Пинки Промис Р9",
+          "variety": "Гортензия Пинки Промис",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Поляр Беар Р9",
+          "variety": "Гортензия Поляр Беар",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Самарская Лидия 15л",
+          "variety": "Гортензия Самарская Лидия",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Самарская Лидия Р9",
+          "variety": "Гортензия Самарская Лидия",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Саммер Лав 15л",
+          "variety": "Гортензия Саммер Лав",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Саммер Лав Р9",
+          "variety": "Гортензия Саммер Лав",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Сандей Фрайз 3л",
+          "variety": "Гортензия Сандей Фрайз",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Сандей Фрайз 5л",
+          "variety": "Гортензия Сандей Фрайз",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Сандей Фрайз Р9",
+          "variety": "Гортензия Сандей Фрайз",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Скайфолл Р9",
+          "variety": "Гортензия Скайфолл",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строббери блоссом 15л",
+          "variety": "Гортензия Строббери блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом 15л",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом 15л",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом 3л",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом 5л",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом 7,5л",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Строуберри блоссом Р9",
+          "variety": "Гортензия Строуберри блоссом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фантом 2л",
+          "variety": "Гортензия Фантом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фантом 5л",
+          "variety": "Гортензия Фантом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фантом 7,5л",
+          "variety": "Гортензия Фантом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фантом Р9",
+          "variety": "Гортензия Фантом",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фрайз Мельба 5л",
+          "variety": "Гортензия Фрайз Мельба",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Фрайз Мельба Р9",
+          "variety": "Гортензия Фрайз Мельба",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Гортензия Шугар Раш 3л",
+          "variety": "Гортензия Шугар Раш",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "thuja",
+      "title": "Туи",
+      "products": 13,
+      "varieties": 11,
+      "questions": [
+        {
+          "id": "shape",
+          "title": "Какой силуэт вам нравится?",
+          "supportedChoices": [
+            "Узкий конус или пирамида",
+            "Круглый шар"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какой размер нужен во взрослом возрасте?",
+          "supportedChoices": [
+            "Миниатюрная — примерно до 0,6 м",
+            "Невысокая — примерно 0,9–1,5 м",
+            "Выше 2 м"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "color",
+          "title": "Какой основной цвет хвои нравится?",
+          "supportedChoices": [
+            "Зелёный или изумрудный",
+            "Золотистый или жёлтый"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "winter-color",
+          "title": "Важно, как туя выглядит зимой?",
+          "supportedChoices": [
+            "Хочу почти тот же цвет круглый год",
+            "Нравится бронзовый или другой зимний оттенок"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "use",
+          "title": "Для чего прежде всего нужна туя?",
+          "supportedChoices": [
+            "Для изгороди или зелёной ширмы",
+            "Для отдельного акцента или невысокой композиции"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "speed",
+          "title": "Что важнее по скорости роста?",
+          "supportedChoices": [
+            "Хочу заметно быстрый рост",
+            "Подойдёт медленный компактный рост"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Туя  Смарагд 160-180 см",
+          "variety": "Туя Смарагд",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Глобоза 20-30см 10л",
+          "variety": "Туя Глобоза",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Голден Глоб 40-60 см",
+          "variety": "Туя Голден Глоб",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Голден Глоб Р9",
+          "variety": "Туя Голден Глоб",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Даника 35л",
+          "variety": "Туя Даника",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Западная Даника Р9",
+          "variety": "Туя Западная Даника",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя западная Кинг  Брабант 100-120 см",
+          "variety": "Туя западная Кинг Брабант",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Западная Кинг оф Брабант Р9",
+          "variety": "Туя Западная Кинг оф Брабант",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Западная Смарагд Р9",
+          "variety": "Туя Западная Смарагд",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Йеллоу Риббон Р9",
+          "variety": "Туя Йеллоу Риббон",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Кинг Брабант 160-180 см",
+          "variety": "Туя Кинг Брабант",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Смарагд 100-120 см",
+          "variety": "Туя Смарагд",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Туя Хозери Р9",
+          "variety": "Туя Хозери",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "pine",
+      "title": "Сосны",
+      "products": 9,
+      "varieties": 8,
+      "questions": [
+        {
+          "id": "height",
+          "title": "Какого размера должно стать растение?",
+          "supportedChoices": [
+            "Кустарник или небольшая форма",
+            "Высокое дерево — от 20 м в природе"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт вам нравится?",
+          "supportedChoices": [
+            "Раскидистый или подушковидный куст",
+            "Прямостоячее дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "needle-count",
+          "title": "Как должны выглядеть пучки хвои?",
+          "supportedChoices": [
+            "По две хвоинки",
+            "По пять хвоинок"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "needle-length",
+          "title": "Какая хвоя нравится больше?",
+          "supportedChoices": [
+            "Короткая или средняя, обычно до 7 см",
+            "Длинная, примерно 6–13 см"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "nuts",
+          "title": "Хотите со временем получать съедобные орехи?",
+          "supportedChoices": [
+            "Да, съедобные семена важны",
+            "Нет, нужна декоративная сосна"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "speed",
+          "title": "Что важнее — компактность или быстрый рост?",
+          "supportedChoices": [
+            "Спокойный рост и компактность",
+            "Быстрее получить крупное дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Сосна Горная 40-60см 20-35л",
+          "variety": "Сосна Горная 40-60см 20-35л",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна горная Мугус 2л",
+          "variety": "Сосна горная Мугус",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна горная Пумилио 1,6л",
+          "variety": "Сосна горная Пумилио",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна горная Пумилио 20-35л",
+          "variety": "Сосна горная Пумилио 20-35л",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна горная Пумилио 2л",
+          "variety": "Сосна горная Пумилио",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна Кедровая Р9",
+          "variety": "Сосна Кедровая",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Сосна корейская кедровая 1,5л",
+          "variety": "Сосна корейская кедровая",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна обыкновенная 15л",
+          "variety": "Сосна обыкновенная",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Сосна сибирская кедровая 5л",
+          "variety": "Сосна сибирская кедровая",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "cedar",
+      "title": "Кедры",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "nuts",
+          "title": "Главное — получить кедровые орехи?",
+          "supportedChoices": [
+            "Да, орехи важны",
+            "Главное — красивое дерево"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "start",
+          "title": "Хотите более раннее плодоношение?",
+          "supportedChoices": [
+            "Да, как можно раньше"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Срок не важен"
+          ]
+        },
+        {
+          "id": "height",
+          "title": "Есть место для будущего дерева?",
+          "supportedChoices": [
+            "Да, просторное место есть"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Места немного"
+          ]
+        },
+        {
+          "id": "look",
+          "title": "Какая крона нравится?",
+          "supportedChoices": [
+            "Густая конусовидная"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Плакучая"
+          ]
+        },
+        {
+          "id": "needles",
+          "title": "Важна мягкая длинная хвоя?",
+          "supportedChoices": [
+            "Не принципиально"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Да, именно такая"
+          ]
+        },
+        {
+          "id": "survival",
+          "title": "Важна хорошая приживаемость саженца?",
+          "supportedChoices": [
+            "Да, это важно"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не главное"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Кедр Сибирский привитый 1,6л",
+          "variety": "Кедр Сибирский привитый",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "spruce",
+      "title": "Ели",
+      "products": 2,
+      "varieties": 2,
+      "questions": [
+        {
+          "id": "color",
+          "title": "Какой цвет хвои нравится?",
+          "supportedChoices": [
+            "Голубая или серебристая",
+            "Классическая зелёная"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "height",
+          "title": "Какого размера может быть дерево?",
+          "supportedChoices": [
+            "Есть место для большого дерева"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна умеренная высота"
+          ]
+        },
+        {
+          "id": "shape",
+          "title": "Какой силуэт хотите?",
+          "supportedChoices": [
+            "Строгий плотный конус"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Более свободная естественная крона"
+          ]
+        },
+        {
+          "id": "city",
+          "title": "Нужно дерево, устойчивое к городскому воздуху?",
+          "supportedChoices": [
+            "Да, такая устойчивость важна"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не важно"
+          ]
+        },
+        {
+          "id": "holiday",
+          "title": "Хотите украшать ель зимой?",
+          "supportedChoices": [
+            "Да, будет новогодним деревом"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нет, это фоновая посадка"
+          ]
+        },
+        {
+          "id": "space",
+          "title": "Можно посадить вдали от дома?",
+          "supportedChoices": [
+            "Да, места достаточно",
+            "Нет, место ограничено"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Ель голубая 15л",
+          "variety": "Ель голубая",
+          "confirmedQuestions": 4,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Ель Обыкновенная",
+          "variety": "Ель Обыкновенная",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        }
+      ]
+    },
+    {
+      "id": "larch",
+      "title": "Лиственницы",
+      "products": 1,
+      "varieties": 1,
+      "questions": [
+        {
+          "id": "height",
+          "title": "Какой высоты нужно дерево?",
+          "supportedChoices": [
+            "Большое дерево подходит"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Нужна компактная форма"
+          ]
+        },
+        {
+          "id": "seasonal",
+          "title": "Нравится хвойное дерево, которое осенью сбрасывает хвою?",
+          "supportedChoices": [
+            "Да, именно это и нужно",
+            "Нет, нужна вечнозелёная хвоя"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "autumn",
+          "title": "Важна золотая осенняя окраска?",
+          "supportedChoices": [
+            "Да, ради неё и выбираю",
+            "Это не главное"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "needles",
+          "title": "Хотите мягкую хвою без колкости?",
+          "supportedChoices": [
+            "Да, это важно",
+            "Не принципиально"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "value",
+          "title": "Что особенно привлекает в лиственнице?",
+          "supportedChoices": [
+            "Золотая хвоя осенью",
+            "Прочная долговечная древесина"
+          ],
+          "unsupportedChoicesHiddenByUi": []
+        },
+        {
+          "id": "hardiness",
+          "title": "Нужна особенно морозостойкая культура?",
+          "supportedChoices": [
+            "Да, морозостойкость важна"
+          ],
+          "unsupportedChoicesHiddenByUi": [
+            "Это не главное"
+          ]
+        }
+      ],
+      "productCoverage": [
+        {
+          "name": "Лиственница 3л",
+          "variety": "Лиственница",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        }
+      ]
+    }
+  ]
+}

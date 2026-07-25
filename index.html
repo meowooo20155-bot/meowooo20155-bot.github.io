@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Умный помощник SIBGARD подбирает растения из каталога «Сады Сибири» по простым понятным вопросам."
+    />
+    <title>Умный подбор растений — SIBGARD</title>
+    <link rel="preconnect" href="https://online.moysklad.ru" />
+    <link rel="stylesheet" href="styles.css?v=20260725-1" />
+  </head>
+  <body>
+    <header class="site-header">
+      <button class="brand" type="button" data-action="home" aria-label="На главную">
+        <img src="assets/sibgard-logo.jpg" alt="SIBGARD — Сады Сибири" />
+        <span>
+          <strong>Умный подбор</strong>
+          <small>растения, которые подойдут именно вам</small>
+        </span>
+      </button>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+79833240964">
+          <span>Точная цена и наличие</span>
+          <strong>+7 983 324-09-64</strong>
+        </a>
+        <button class="header-support" type="button" data-action="support-open">
+          <span class="status-dot"></span>
+          Онлайн-поддержка
+        </button>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1" aria-live="polite"></main>
+
+    <button class="support-fab" type="button" data-action="support-open" aria-controls="support-panel">
+      <span class="support-fab-icon" aria-hidden="true">💬</span>
+      <span><strong>Онлайн-поддержка</strong><small>Поможем с выбором сорта</small></span>
+    </button>
+
+    <aside class="support-panel" id="support-panel" aria-label="Онлайн-поддержка" aria-hidden="true" hidden>
+      <div class="support-panel-head">
+        <div>
+          <span class="status-dot"></span>
+          <strong>Поддержка SIBGARD</strong>
+        </div>
+        <button type="button" data-action="support-close" aria-label="Закрыть поддержку">×</button>
+      </div>
+      <div class="support-log" id="support-log" aria-live="polite">
+        <div class="support-message bot-message">
+          <img src="assets/sibgard-logo.jpg" alt="" />
+          <p>Здравствуйте! Я онлайн-консультант SIBGARD. Напишите название растения, сорта или свой вопрос — отвечу прямо здесь.</p>
+        </div>
+      </div>
+      <div class="support-suggestions" aria-label="Быстрые вопросы">
+        <button type="button" data-support-question="Найти яблоню">Найти яблоню</button>
+        <button type="button" data-support-question="Как узнать точную цену?">Узнать цену</button>
+        <button type="button" data-support-question="Помоги выбрать растение">Помочь с выбором</button>
+      </div>
+      <form class="support-form" id="support-form">
+        <label class="sr-only" for="support-input">Вопрос онлайн-консультанту</label>
+        <input id="support-input" type="text" autocomplete="off" placeholder="Напишите вопрос…" maxlength="180" required />
+        <button type="submit" aria-label="Отправить вопрос">→</button>
+      </form>
+      <small>Консультант ищет ответы по каталогу. Точную цену и наличие подтвердит питомник по <a href="tel:+79833240964">+7 983 324-09-64</a>.</small>
+    </aside>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/sibgard-logo.jpg" alt="" />
+        <p>Подбор основан на характеристиках из каталога SIBGARD / «Сады Сибири».</p>
+      </div>
+      <p>
+        Точную цену и актуальное наличие уточняйте в питомнике:
+        <a href="tel:+79833240964">+7 983 324-09-64</a>
+      </p>
+    </footer>
+
+    <script src="data/catalog.js?v=20260725-1"></script>
+    <script src="data/branches.js?v=20260725-1"></script>
+    <script src="app.js?v=20260725-1"></script>
+  </body>
+</html>
