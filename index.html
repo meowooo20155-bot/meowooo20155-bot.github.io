@@ -9,7 +9,7 @@
     />
     <title>Умный подбор растений — SIBGARD</title>
     <link rel="preconnect" href="https://online.moysklad.ru" />
-    <link rel="stylesheet" href="styles.css?v=20260725-1" />
+    <link rel="stylesheet" href="styles.css?v=20260731-1" />
   </head>
   <body>
     <header class="site-header">
@@ -21,9 +21,9 @@
         </span>
       </button>
       <div class="header-actions">
-        <a class="header-phone" href="tel:+79833240964">
+        <a class="header-phone" href="#garden-centers">
           <span>Точная цена и наличие</span>
-          <strong>+7 983 324-09-64</strong>
+          <strong>4 садовых центра</strong>
         </a>
         <button class="header-support" type="button" data-action="support-open">
           <span class="status-dot"></span>
@@ -63,22 +63,44 @@
         <input id="support-input" type="text" autocomplete="off" placeholder="Напишите вопрос…" maxlength="180" required />
         <button type="submit" aria-label="Отправить вопрос">→</button>
       </form>
-      <small>Консультант ищет ответы по каталогу. Точную цену и наличие подтвердит питомник по <a href="tel:+79833240964">+7 983 324-09-64</a>.</small>
+      <small>Консультант ищет ответы по каталогу. Точную цену и наличие подтвердит выбранный <a href="#garden-centers">садовый центр</a>.</small>
     </aside>
 
     <footer class="site-footer">
-      <div>
+      <div class="footer-brand">
         <img src="assets/sibgard-logo.jpg" alt="" />
         <p>Подбор основан на характеристиках из каталога SIBGARD / «Сады Сибири».</p>
       </div>
-      <p>
-        Точную цену и актуальное наличие уточняйте в питомнике:
-        <a href="tel:+79833240964">+7 983 324-09-64</a>
-      </p>
+      <section class="garden-centers" id="garden-centers" aria-labelledby="garden-centers-title">
+        <h2 id="garden-centers-title">Садовые центры</h2>
+        <p>Точную цену и актуальное наличие уточняйте в выбранном садовом центре.</p>
+        <div class="garden-centers-grid">
+          <article class="garden-center-card">
+            <strong>Иркутск</strong>
+            <span>ул. Николаева, 8/1</span>
+            <a href="tel:+79834663936">+7 (983) 466-39-36</a>
+          </article>
+          <article class="garden-center-card">
+            <strong>пос. Молодежный</strong>
+            <span>Иркутский р-н, ул. Кузнецовой, 11</span>
+            <a href="tel:+79501185327">+7 (950) 118-53-27</a>
+          </article>
+          <article class="garden-center-card">
+            <strong>Красноярск</strong>
+            <span>ул. 9 Мая, 77</span>
+            <a href="tel:+79149158186">+7 (914) 915-81-86</a>
+          </article>
+          <article class="garden-center-card">
+            <strong>Новосибирск</strong>
+            <span>ул. Военная, 5</span>
+            <a href="tel:+79501185327">+7 (950) 118-53-27</a>
+          </article>
+        </div>
+      </section>
     </footer>
 
-    <script src="data/catalog.js?v=20260725-1"></script>
-    <script src="data/branches.js?v=20260725-1"></script>
-    <script src="app.js?v=20260725-1"></script>
+    <script src="data/catalog.js?v=20260731-1"></script>
+    <script src="data/branches.js?v=20260731-1"></script>
+    <script src="app.js?v=20260731-1"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T07:52:59.584Z",
+  "generatedAt": "2026-07-31T10:40:52.880Z",
   "summary": {
     "categories": 6,
     "categoryPhotos": 6,
@@ -7,23 +7,23 @@
     "questions": 336,
     "questionsWithMeaningfulChoice": 336,
     "helperQuestions": 12,
-    "products": 442,
-    "productsAudited": 442,
-    "sourceOfferNames": 437,
-    "catalogOfferNames": 437,
-    "varieties": 366,
-    "evidenceChecks": 605,
-    "images": 442,
-    "descriptions": 442,
-    "prices": 442,
+    "products": 465,
+    "productsAudited": 465,
+    "sourceOfferNames": 459,
+    "catalogOfferNames": 459,
+    "varieties": 388,
+    "evidenceChecks": 607,
+    "images": 465,
+    "descriptions": 465,
+    "prices": 465,
     "branchesWithVerifiedPartialFallbackScenario": 55,
     "remontantStrawberryVarieties": 3,
     "ordinaryStrawberryVarietiesExternallyAudited": 9,
     "strawberryVarietiesExternallyAudited": 12,
     "muranoTypicalScenarioExact": true,
     "minimumConfirmedQuestionsPerProduct": 2,
-    "identityUnconfirmedProducts": 24,
-    "unsupportedAnswerOptionsHiddenByUi": 112,
+    "identityUnconfirmedProducts": 29,
+    "unsupportedAnswerOptionsHiddenByUi": 110,
     "embeddedOnlineSupport": true,
     "simpleCatalogSearch": true
   },
@@ -692,8 +692,8 @@
     {
       "id": "raspberry",
       "title": "Малина",
-      "products": 19,
-      "varieties": 14,
+      "products": 20,
+      "varieties": 15,
       "questions": [
         {
           "id": "fruiting",
@@ -826,6 +826,12 @@
         {
           "name": "Малина ремонтантная Пингвин 2л",
           "variety": "Малина ремонтантная Пингвин",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Малина Самохвал 2л",
+          "variety": "Малина Самохвал",
           "confirmedQuestions": 6,
           "identityUnconfirmed": false
         },
@@ -970,8 +976,8 @@
     {
       "id": "currant",
       "title": "Смородина",
-      "products": 18,
-      "varieties": 16,
+      "products": 21,
+      "varieties": 19,
       "questions": [
         {
           "id": "color",
@@ -1067,6 +1073,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Смородина Монета 3л",
+          "variety": "Смородина Монета",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Смородина Монисто 3л",
           "variety": "Смородина Монисто",
           "confirmedQuestions": 6,
@@ -1076,6 +1088,12 @@
           "name": "Смородина Мушкетер 3л",
           "variety": "Смородина Мушкетер",
           "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Смородина Сеянец смены 3л",
+          "variety": "Смородина Сеянец смены",
+          "confirmedQuestions": 6,
           "identityUnconfirmed": false
         },
         {
@@ -1121,6 +1139,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Смородина черная Нюрсинка 3л",
+          "variety": "Смородина черная Нюрсинка",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Смородина черная Перун 3л",
           "variety": "Смородина черная Перун",
           "confirmedQuestions": 6,
@@ -1143,8 +1167,8 @@
     {
       "id": "gooseberry",
       "title": "Крыжовник",
-      "products": 8,
-      "varieties": 8,
+      "products": 9,
+      "varieties": 9,
       "questions": [
         {
           "id": "color",
@@ -1221,6 +1245,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Крыжовник Грушенька 3л",
+          "variety": "Крыжовник Грушенька",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Крыжовник Командор (Владил) 3л",
           "variety": "Крыжовник Командор (Владил)",
           "confirmedQuestions": 6,
@@ -1255,8 +1285,8 @@
     {
       "id": "honeysuckle",
       "title": "Жимолость",
-      "products": 20,
-      "varieties": 19,
+      "products": 21,
+      "varieties": 20,
       "questions": [
         {
           "id": "season",
@@ -1387,6 +1417,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Жимолость Лавина 3л",
+          "variety": "Жимолость Лавина",
+          "confirmedQuestions": 3,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Жимолость Парабельская 3л",
           "variety": "Жимолость Парабельская",
           "confirmedQuestions": 5,
@@ -1439,8 +1475,8 @@
     {
       "id": "blueberry",
       "title": "Голубика",
-      "products": 1,
-      "varieties": 1,
+      "products": 2,
+      "varieties": 2,
       "questions": [
         {
           "id": "height",
@@ -1465,11 +1501,10 @@
           "id": "size",
           "title": "Размер ягод важен?",
           "supportedChoices": [
+            "Да, крупные",
             "Главное — урожайность"
           ],
-          "unsupportedChoicesHiddenByUi": [
-            "Да, крупные"
-          ]
+          "unsupportedChoicesHiddenByUi": []
         },
         {
           "id": "taste",
@@ -1504,6 +1539,12 @@
           "name": "Голубика  Нортланд 3л",
           "variety": "Голубика Нортланд",
           "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Голубика Ханна Чойс Р9",
+          "variety": "Голубика Ханна Чойс",
+          "confirmedQuestions": 5,
           "identityUnconfirmed": false
         }
       ]
@@ -2941,8 +2982,8 @@
     {
       "id": "ninebark",
       "title": "Пузыреплодник",
-      "products": 15,
-      "varieties": 13,
+      "products": 16,
+      "varieties": 14,
       "questions": [
         {
           "id": "foliage",
@@ -3078,6 +3119,12 @@
         {
           "name": "Пузыреплодник Ред Барон 7,5л",
           "variety": "Пузыреплодник Ред Барон",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Пузыреплодник Саммер Вайн 3л",
+          "variety": "Пузыреплодник Саммер Вайн",
           "confirmedQuestions": 6,
           "identityUnconfirmed": false
         },
@@ -3343,8 +3390,8 @@
     {
       "id": "forsythia",
       "title": "Форзиция",
-      "products": 1,
-      "varieties": 1,
+      "products": 3,
+      "varieties": 3,
       "questions": [
         {
           "id": "flowers",
@@ -3370,11 +3417,10 @@
           "id": "height",
           "title": "Подойдёт куст высотой 2–3 метра?",
           "supportedChoices": [
-            "Да, такой размер подходит"
-          ],
-          "unsupportedChoicesHiddenByUi": [
+            "Да, такой размер подходит",
             "Нужен куст до 50 см"
-          ]
+          ],
+          "unsupportedChoicesHiddenByUi": []
         },
         {
           "id": "shape",
@@ -3408,9 +3454,21 @@
       ],
       "productCoverage": [
         {
+          "name": "Форзиция Мелид Ор 2л",
+          "variety": "Форзиция Мелид Ор",
+          "confirmedQuestions": 2,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Форзиция промежуточная 7л",
           "variety": "Форзиция промежуточная",
           "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Форзиция Спринг Глори 2л",
+          "variety": "Форзиция Спринг Глори",
+          "confirmedQuestions": 2,
           "identityUnconfirmed": false
         }
       ]
@@ -3890,8 +3948,8 @@
     {
       "id": "phlox",
       "title": "Флоксы",
-      "products": 35,
-      "varieties": 35,
+      "products": 48,
+      "varieties": 47,
       "questions": [
         {
           "id": "growth-form",
@@ -3984,8 +4042,32 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Флокс Анна Попова 1л",
+          "variety": "Флокс Анна Попова",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Атлант 1л",
+          "variety": "Флокс Атлант",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Флокс Балет 1л",
           "variety": "Флокс Балет",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Белки Алтая 1л",
+          "variety": "Флокс Белки Алтая",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
+          "name": "Флокс Большой Иван заря 1л",
+          "variety": "Флокс Большой Иван заря",
           "confirmedQuestions": 0,
           "identityUnconfirmed": true
         },
@@ -4014,9 +4096,21 @@
           "identityUnconfirmed": true
         },
         {
+          "name": "Флокс Гусляр 1л",
+          "variety": "Флокс Гусляр",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
+        },
+        {
           "name": "Флокс Давид 1л",
           "variety": "Флокс Давид",
           "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Джефс Пинк 1л",
+          "variety": "Флокс Джефс Пинк",
+          "confirmedQuestions": 6,
           "identityUnconfirmed": false
         },
         {
@@ -4028,6 +4122,12 @@
         {
           "name": "Флокс Дэвидс Лавендер 1л",
           "variety": "Флокс Дэвидс Лавендер",
+          "confirmedQuestions": 6,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Европа 1л",
+          "variety": "Флокс Европа",
           "confirmedQuestions": 6,
           "identityUnconfirmed": false
         },
@@ -4080,8 +4180,20 @@
           "identityUnconfirmed": true
         },
         {
+          "name": "Флокс Мария Федоровна 1л",
+          "variety": "Флокс Мария Федоровна",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Флокс Мерлинка 1л",
           "variety": "Флокс Мерлинка",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Москвичка 1л",
+          "variety": "Флокс Москвичка",
           "confirmedQuestions": 7,
           "identityUnconfirmed": false
         },
@@ -4110,6 +4222,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Флокс Радость Жизни 1л",
+          "variety": "Флокс Радость Жизни",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Флокс Северное облако 1л",
           "variety": "Флокс Северное облако",
           "confirmedQuestions": 7,
@@ -4128,6 +4246,12 @@
           "identityUnconfirmed": false
         },
         {
+          "name": "Флокс Старфайер 1л",
+          "variety": "Флокс Старфайер",
+          "confirmedQuestions": 5,
+          "identityUnconfirmed": false
+        },
+        {
           "name": "Флокс Сумерки 1л",
           "variety": "Флокс Сумерки",
           "confirmedQuestions": 0,
@@ -4136,6 +4260,12 @@
         {
           "name": "Флокс Успех 1л",
           "variety": "Флокс Успех",
+          "confirmedQuestions": 7,
+          "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Фатима 1л",
+          "variety": "Флокс Фатима",
           "confirmedQuestions": 7,
           "identityUnconfirmed": false
         },
@@ -4162,6 +4292,12 @@
           "variety": "Флокс Хохгезанг",
           "confirmedQuestions": 7,
           "identityUnconfirmed": false
+        },
+        {
+          "name": "Флокс Эрли Стар 1л",
+          "variety": "Флокс Эрли Стар",
+          "confirmedQuestions": 0,
+          "identityUnconfirmed": true
         },
         {
           "name": "Флокс Эрли Стар 1л",

@@ -6,6 +6,12 @@
   const branchMap = new Map(branches.map((branch) => [branch.id, branch]));
   const groupMap = new Map(groups.map((group) => [group.id, group]));
   const fallbackImage = 'assets/sibgard-logo.jpg';
+  const gardenCenters = [
+    {city: 'Иркутск', address: 'ул. Николаева, 8/1', phone: '+7 (983) 466-39-36', tel: '+79834663936'},
+    {city: 'пос. Молодежный', address: 'Иркутский р-н, ул. Кузнецовой, 11', phone: '+7 (950) 118-53-27', tel: '+79501185327'},
+    {city: 'Красноярск', address: 'ул. 9 Мая, 77', phone: '+7 (914) 915-81-86', tel: '+79149158186'},
+    {city: 'Новосибирск', address: 'ул. Военная, 5', phone: '+7 (950) 118-53-27', tel: '+79501185327'},
+  ];
   const supportPanel = document.querySelector('#support-panel');
   const supportLog = document.querySelector('#support-log');
   const supportInput = document.querySelector('#support-input');
@@ -102,6 +108,12 @@
       .replace(/'/g, '&#039;');
   }
 
+  function gardenCenterContactsMarkup() {
+    return `<div class="inline-garden-centers">${gardenCenters.map((center) => `
+      <span><b>${escapeHtml(center.city)}:</b> ${escapeHtml(center.address)} — <a href="tel:${center.tel}">${escapeHtml(center.phone)}</a></span>
+    `).join('')}</div>`;
+  }
+
   function formatPrice(price) {
     return new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 0 }).format(price || 0) + ' ₽';
   }
@@ -169,7 +181,7 @@
   function supportAnswer(question) {
     const normalized = question.toLocaleLowerCase('ru');
     if (/цен|стоим|налич/.test(normalized)) {
-      return `<p>Цена показана в карточке каждого сорта. Точную цену и актуальное наличие подтвердит питомник: <a href="tel:+79833240964">+7 983 324-09-64</a>.</p>`;
+      return `<p>Цена показана в карточке каждого сорта. Точную цену и актуальное наличие подтвердит выбранный садовый центр:</p>${gardenCenterContactsMarkup()}`;
     }
     if (/помог|подоб|выбр|не знаю|не могу определ/.test(normalized)) {
       return `<p>Выберите, что хочется посадить — открою подходящую ветку вопросов:</p><div class="support-category-links">${groups.map((group) => `<button type="button" data-group="${group.id}">${group.icon} ${escapeHtml(group.title)}</button>`).join('')}</div>`;
@@ -624,11 +636,11 @@
 
     const notice = mode === 'exact'
       ? exact.length < 5
-        ? `Найдено меньше пяти полных совпадений. Помощник не добавляет сорта, которые противоречат вашим ответам. Другие варианты, точную цену и наличие уточняйте по телефону <a href="tel:+79833240964">+7 983 324-09-64</a>.`
-        : `Показано до 10 полных совпадений. Точную цену и актуальное наличие уточняйте по телефону <a href="tel:+79833240964">+7 983 324-09-64</a>.`
+        ? `Найдено меньше пяти полных совпадений. Помощник не добавляет сорта, которые противоречат вашим ответам. Другие варианты, точную цену и наличие уточняйте в выбранном <a href="#garden-centers">садовом центре</a>.`
+        : `Показано до 10 полных совпадений. Точную цену и актуальное наличие уточняйте в выбранном <a href="#garden-centers">садовом центре</a>.`
       : mode === 'partial'
         ? `Сорта, полностью совпадающего со всеми ответами, нет. Поэтому ниже показаны ближайшие варианты: у каждого описанием подтверждены 2–3 или больше выбранных характеристик. Неподтверждённые условия помощник совпадением не считает.`
-        : `Полного совпадения и вариантов с двумя подтверждёнными критериями нет. Ниже — рекомендации для сравнения. Получить персональную консультацию можно в онлайн-поддержке или по телефону <a href="tel:+79833240964">+7 983 324-09-64</a>.`;
+        : `Полного совпадения и вариантов с двумя подтверждёнными критериями нет. Ниже — рекомендации для сравнения. Получить персональную консультацию можно в онлайн-поддержке, а цену и наличие уточнить в выбранном <a href="#garden-centers">садовом центре</a>.`;
 
     app.innerHTML = `
       <section class="section-shell">
@@ -702,7 +714,7 @@
           </div>
           <div class="product-actions">
             <a class="buy-link" href="${escapeHtml(product.purchaseUrl)}" target="_blank" rel="noopener">Купить на сайте ↗</a>
-            <a class="call-link" href="tel:+79833240964">Уточнить цену</a>
+            <a class="call-link" href="#garden-centers">Телефоны центров</a>
           </div>
         </div>
       </article>`;
