@@ -12,6 +12,10 @@
     {city: 'Красноярск', address: 'ул. 9 Мая, 77', phone: '+7 (914) 915-81-86', tel: '+79149158186'},
     {city: 'Новосибирск', address: 'ул. Военная, 5', phone: '+7 (950) 118-53-27', tel: '+79501185327'},
   ];
+  const analyticsEndpoint = window.location.hostname === 'meowooo20155-bot.github.io'
+    ? 'https://sibgard-smart-plants.jekakharitonov.chatgpt.site/api/analytics/track'
+    : '/api/analytics/track';
+  const analyticsSiteSource = window.location.hostname === 'meowooo20155-bot.github.io' ? 'github' : 'sites';
   const supportPanel = document.querySelector('#support-panel');
   const supportLog = document.querySelector('#support-log');
   const supportInput = document.querySelector('#support-input');
@@ -106,6 +110,47 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;');
+  }
+
+  function readCookie(name) {
+    const prefix = `${name}=`;
+    return document.cookie.split(';').map((part) => part.trim()).find((part) => part.startsWith(prefix))?.slice(prefix.length) || '';
+  }
+
+  function analyticsId(name, maxAge) {
+    const current = readCookie(name);
+    const id = /^[a-zA-Z0-9_-]{16,80}$/.test(current)
+      ? current
+      : (crypto.randomUUID?.() || `${Date.now().toString(36)}_${Math.random().toString(36).slice(2)}_${Math.random().toString(36).slice(2)}`);
+    document.cookie = `${name}=${id}; Max-Age=${maxAge}; Path=/; SameSite=Lax; Secure`;
+    return id;
+  }
+
+  const analyticsVisitorId = analyticsId('sibgard_visitor', 60 * 60 * 24 * 400);
+  let analyticsSessionId = analyticsId('sibgard_session', 60 * 30);
+
+  function trackAnalytics(eventName, details = {}) {
+    analyticsSessionId = analyticsId('sibgard_session', 60 * 30);
+    const params = new URLSearchParams(window.location.search);
+    const payload = {
+      event: eventName,
+      visitorId: analyticsVisitorId,
+      sessionId: analyticsSessionId,
+      path: `${window.location.pathname}${window.location.search}`.slice(0, 180),
+      referrer: document.referrer,
+      source: params.get('utm_source') || '',
+      siteSource: analyticsSiteSource,
+      target: details.target || '',
+      species: details.species || state.branchId || '',
+    };
+    fetch(analyticsEndpoint, {
+      method: 'POST',
+      mode: 'cors',
+      credentials: analyticsEndpoint.startsWith('/') ? 'same-origin' : 'omit',
+      keepalive: true,
+      headers: {'Content-Type': 'text/plain;charset=UTF-8'},
+      body: JSON.stringify(payload),
+    }).catch(() => {});
   }
 
   function gardenCenterContactsMarkup() {
@@ -381,6 +426,7 @@
     state.helperId = null;
     state.questionIndex = 0;
     state.answers = [];
+    trackAnalytics('branch_open', {species: branchId});
     setScreen('quiz');
   }
 
@@ -392,6 +438,7 @@
     state.branchId = null;
     state.questionIndex = 0;
     state.answers = [];
+    trackAnalytics('helper_start', {target: helperId});
     setScreen('helper-quiz');
   }
 
@@ -463,6 +510,10 @@
     state.answers[state.questionIndex] = question.options[index];
     state.questionIndex += 1;
     if (state.questionIndex >= source.questions.length) {
+      trackAnalytics(isHelper ? 'helper_complete' : 'selection_complete', {
+        target: isHelper ? state.helperId : '',
+        species: isHelper ? '' : state.branchId,
+      });
       setScreen(isHelper ? 'helper-results' : 'results');
     } else {
       render();
@@ -794,9 +845,19 @@
 
   document.addEventListener('click', (event) => {
     const target = event.target.closest('button, a');
-    if (!target || (target.tagName === 'A' && !target.dataset.action)) return;
+    if (!target) return;
+
+    if (target.matches('.buy-link')) {
+      const product = target.closest('.product-card')?.querySelector('h2')?.textContent || '';
+      trackAnalytics('buy_click', {target: product, species: state.branchId});
+    }
+    if (target.matches('.call-link, a[href="#garden-centers"], a[href^="tel:"]')) {
+      trackAnalytics('center_contacts_click', {species: state.branchId});
+    }
+    if (target.tagName === 'A' && !target.dataset.action) return;
 
     if (target.dataset.group) {
+      trackAnalytics('category_open', {target: target.dataset.group});
       toggleSupport(false);
       state.groupId = target.dataset.group;
       setScreen('species');
@@ -831,6 +892,7 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'categories':
+        trackAnalytics('assistant_start');
         resetToCategories();
         break;
       case 'species':
@@ -859,6 +921,7 @@
         document.querySelector('#plant-search')?.focus();
         break;
       case 'support-open':
+        trackAnalytics('support_open');
         toggleSupport(true);
         break;
       case 'support-close':
@@ -882,6 +945,7 @@
     if (event.target.id === 'quick-search-form') {
       event.preventDefault();
       state.searchQuery = document.querySelector('#plant-search')?.value || '';
+      trackAnalytics('catalog_search');
       renderQuickSearchResults(state.searchQuery);
     }
     if (event.target.id === 'support-form') {
@@ -915,5 +979,9 @@
   }
   if (initialParams.get('q')) state.searchQuery = initialParams.get('q').trim();
   render();
-  if (initialParams.get('support') === 'open') toggleSupport(true);
+  trackAnalytics('page_view');
+  if (initialParams.get('support') === 'open') {
+    trackAnalytics('support_open');
+    toggleSupport(true);
+  }
 })();
