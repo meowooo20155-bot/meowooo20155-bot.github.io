@@ -129,6 +129,15 @@
   const analyticsVisitorId = analyticsId('sibgard_visitor', 60 * 60 * 24 * 400);
   let analyticsSessionId = analyticsId('sibgard_session', 60 * 30);
 
+  function analyticsDeviceType() {
+    const userAgent = navigator.userAgent || '';
+    if (/iphone|ipod/i.test(userAgent)) return 'iphone';
+    if (/ipad/i.test(userAgent) || (/macintosh/i.test(userAgent) && navigator.maxTouchPoints > 1)) return 'ipad';
+    if (/android/i.test(userAgent)) return 'android';
+    if (/mobile/i.test(userAgent)) return 'mobile';
+    return 'desktop';
+  }
+
   function trackAnalytics(eventName, details = {}) {
     analyticsSessionId = analyticsId('sibgard_session', 60 * 30);
     const params = new URLSearchParams(window.location.search);
@@ -140,16 +149,30 @@
       referrer: document.referrer,
       source: params.get('utm_source') || '',
       siteSource: analyticsSiteSource,
+      deviceType: analyticsDeviceType(),
       target: details.target || '',
       species: details.species || state.branchId || '',
     };
+    const body = JSON.stringify(payload);
+    let queued = false;
+    if (analyticsEndpoint.startsWith('https://') && typeof navigator.sendBeacon === 'function') {
+      try {
+        queued = navigator.sendBeacon(
+          analyticsEndpoint,
+          new Blob([body], {type: 'text/plain;charset=UTF-8'}),
+        );
+      } catch {
+        queued = false;
+      }
+    }
+    if (queued) return;
     fetch(analyticsEndpoint, {
       method: 'POST',
       mode: 'cors',
       credentials: analyticsEndpoint.startsWith('/') ? 'same-origin' : 'omit',
       keepalive: true,
       headers: {'Content-Type': 'text/plain;charset=UTF-8'},
-      body: JSON.stringify(payload),
+      body,
     }).catch(() => {});
   }
 
