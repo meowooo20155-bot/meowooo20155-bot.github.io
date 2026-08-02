@@ -1,0 +1,37 @@
+name: Update encrypted analytics
+
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/sync-analytics.yml"]
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analytics-snapshot
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download encrypted statistics
+        run: |
+          curl --fail --retry 3 --silent --show-error \
+            https://sibgard-smart-plants.jekakharitonov.chatgpt.site/api/analytics/snapshot \
+            -o data/analytics.enc.json
+      - name: Publish new snapshot
+        run: |
+          if git diff --quiet -- data/analytics.enc.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/analytics.enc.json
+          git commit -m "Update encrypted analytics snapshot"
+          git push
