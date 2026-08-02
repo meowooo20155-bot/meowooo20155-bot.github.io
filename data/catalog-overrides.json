@@ -10,7 +10,7 @@
         "name": "Липа мелколистная 5л",
         "variety": "Липа мелколистная",
         "species": "linden",
-        "price": 1001,
+        "price": 1002,
         "promotion": null,
         "currency": "RUB",
         "picture": "https://online.moysklad.ru/api/yandex/market/3d8d6805-3ae4-11ed-0a80-087100003caf/picture/8ed2b310-94da-4378-920e-976347ea4d67",
@@ -56,8 +56,8 @@
         "purchaseUrl": "https://sibgard.ru/catalog/ves-assortiment.html"
       },
       "isCustom": false,
-      "createdAt": "2026-08-02T04:09:49.677Z",
-      "updatedAt": "2026-08-02T04:09:49.677Z"
+      "createdAt": "2026-08-02T04:12:56.137Z",
+      "updatedAt": "2026-08-02T04:12:56.137Z"
     }
   ]
 }
