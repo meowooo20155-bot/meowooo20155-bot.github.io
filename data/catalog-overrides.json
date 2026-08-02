@@ -1,4 +1,63 @@
 {
   "ok": true,
-  "records": []
+  "records": [
+    {
+      "productId": "89052ff9670711f10a8",
+      "status": "active",
+      "product": {
+        "id": "89052ff9670711f10a8",
+        "barcode": "2000000001920",
+        "name": "Липа мелколистная 5л",
+        "variety": "Липа мелколистная",
+        "species": "linden",
+        "price": 1001,
+        "promotion": null,
+        "currency": "RUB",
+        "picture": "https://online.moysklad.ru/api/yandex/market/3d8d6805-3ae4-11ed-0a80-087100003caf/picture/8ed2b310-94da-4378-920e-976347ea4d67",
+        "description": "Липа мелколистная (Tilia cordata) — это статное, долгоживущее дерево высотой до 20–25 метров (в диком ареале — до 40 метров) с плотной, широкояйцевидной или пирамидальной кроной, крепкими ветвями и серо-коричневой бороздчатой корой на взрослых стволах; листья округлые, до 7 см в диаметре, с сердцевидным основанием и мелкозубчатыми краями, сверху тёмно-зелёные и глянцевые, снизу — серовато-зелёные с характерными «бородками» из рыжеватых волосков в пазухах жилок; в июне появляются ароматные кремово-жёлтые цветки в поникших соцветиях, привлекающие насекомых и ценные для пчеловодства, а к осени созревают мелкие опушённые орешки; дерево неприхотливо к почвам, морозоустойчиво (зона USDA 4–5), хорошо переносит обрезку и городские условия, поэтому широко используется в ландшафтном дизайне — в аллеях, групповых посадках, в качестве солитера или живой изгороди, особенно популярны сорта «Greenspire», «Rancho» и «Green Globe».",
+        "sourcedFacts": [
+          {
+            "text": "Tilia cordata — крупное листопадное дерево высотой примерно до 25 м с широкой округлой кроной. В середине лета появляются небольшие душистые кремово-жёлтые цветки.",
+            "characteristicIds": [
+              "space",
+              "flowers",
+              "shape"
+            ],
+            "priority": 5,
+            "source": {
+              "title": "Royal Horticultural Society — Tilia cordata",
+              "url": "https://www.rhs.org.uk/plants/18225/tilia-cordata/details"
+            }
+          },
+          {
+            "text": "Университет штата Огайо приводит высоту 15–21 м и подтверждает ароматные кремово-жёлтые цветки, привлекающие пчёл.",
+            "characteristicIds": [
+              "space",
+              "flowers",
+              "bees"
+            ],
+            "priority": 10,
+            "source": {
+              "title": "Ohio State University — Tilia cordata",
+              "url": "https://u.osu.edu/plants/tilia-cordata/"
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Royal Horticultural Society — Tilia cordata",
+            "url": "https://www.rhs.org.uk/plants/18225/tilia-cordata/details"
+          },
+          {
+            "title": "Ohio State University — Tilia cordata",
+            "url": "https://u.osu.edu/plants/tilia-cordata/"
+          }
+        ],
+        "purchaseUrl": "https://sibgard.ru/catalog/ves-assortiment.html"
+      },
+      "isCustom": false,
+      "createdAt": "2026-08-02T04:09:49.677Z",
+      "updatedAt": "2026-08-02T04:09:49.677Z"
+    }
+  ]
 }
