@@ -17,7 +17,7 @@
   }
 
   async function decryptSnapshot(secret) {
-    const response=await fetch(`../data/analytics.enc.json?v=${Date.now()}`,{cache:'no-store'});
+    const response=await fetch(`https://raw.githubusercontent.com/meowooo20155-bot/meowooo20155-bot.github.io/main/data/analytics.enc.json?v=${Date.now()}`,{cache:'no-store'});
     if(!response.ok) throw new Error('Статистика ещё обновляется. Попробуйте через минуту.');
     const sealed=await response.json();
     const material=await crypto.subtle.digest('SHA-256',encoder.encode(`snapshot:${secret}`));
