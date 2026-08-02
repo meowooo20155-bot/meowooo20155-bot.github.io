@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Админ-панель SIBGARD</title>
+  <link rel="stylesheet" href="/admin-core.css?v=20260802-1">
+  <link rel="stylesheet" href="./github-admin.css?v=20260802-1">
+</head>
+<body>
+  <main id="owner-gate" class="owner-gate">
+    <section class="owner-card">
+      <p class="owner-brand">SIBGARD · САДЫ СИБИРИ</p>
+      <h1>Вход владельца</h1>
+      <p>Админ-панель работает через GitHub и открывается без VPN.</p>
+      <form id="owner-login-form">
+        <label for="owner-password">Пароль</label>
+        <input id="owner-password" type="password" autocomplete="current-password" required autofocus>
+        <button type="submit">Войти</button>
+        <p id="owner-error" class="owner-error" role="alert" hidden>Неверный пароль.</p>
+      </form>
+    </section>
+  </main>
+  <div id="github-status" class="github-status" hidden></div>
+  <main id="admin-app" hidden><div class="admin-loading"><b>SIBGARD</b><span>Загружаем каталог…</span></div></main>
+  <script src="../data/catalog.js?v=20260731-2"></script>
+  <script src="../data/branches.js?v=20260731-2"></script>
+  <script src="./github-adapter.js?v=20260802-1"></script>
+</body>
+</html>

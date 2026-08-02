@@ -2,11 +2,11 @@
   const loader = document.currentScript;
   const appSource = loader?.dataset.appSrc || 'app.js';
   const isGitHubPages = window.location.hostname === 'meowooo20155-bot.github.io';
-  const endpoint = 'https://sibgard-smart-plants.jekakharitonov.chatgpt.site/api/catalog/changes';
+  const endpoint = 'data/catalog-overrides.json';
 
   async function applyLiveChanges() {
     const base = Array.isArray(window.SIBGARD_CATALOG) ? window.SIBGARD_CATALOG : [];
-    const response = await fetch(endpoint, {mode: 'cors', cache: 'no-store'});
+    const response = await fetch(`${endpoint}?v=${Date.now()}`, {cache: 'no-store'});
     if (!response.ok) throw new Error('live_catalog_unavailable');
     const result = await response.json();
     if (!result?.ok || !Array.isArray(result.records)) throw new Error('invalid_live_catalog');
